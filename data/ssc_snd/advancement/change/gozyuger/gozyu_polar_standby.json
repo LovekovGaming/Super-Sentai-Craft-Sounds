@@ -1,0 +1,50 @@
+{
+	"parent": "ssc_snd:change/gozyuger/standby_root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"ssc_snd:change/gozyuger/gozyu_polar_standby": {
+					  "1": true
+					}
+				  }
+				},
+				"equipment": {
+				  "head": {
+					"items": [
+					  "supersentaicraft:gozyuger_head"
+					]
+				  },
+				  "chest": {
+					"items": [
+					  "supersentaicraft:gozyuger_torso"
+					]
+				  },
+				  "legs": {
+					"items": [
+					  "supersentaicraft:gozyuger_legs"
+					]
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "ssc_snd:change/gozyuger/standby/gozyu_polar"
+	}
+  }
+  

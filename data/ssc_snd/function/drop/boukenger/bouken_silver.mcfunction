@@ -1,0 +1,3 @@
+execute if items entity @n[type=item,distance=..5,predicate=ssc_snd:valid_item] contents supersentaicraft:gogo_changer run playsound supersentaicraft:gogo_changer_open player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:gogo_changer run function ssc_snd:drop/common/return_item
+advancement revoke @s from ssc_snd:drop/boukenger/bouken_silver

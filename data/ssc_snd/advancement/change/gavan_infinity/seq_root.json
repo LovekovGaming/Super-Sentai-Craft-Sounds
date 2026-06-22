@@ -1,0 +1,9 @@
+{
+    "parent": "ssc_snd:change/gavan_infinity/root",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

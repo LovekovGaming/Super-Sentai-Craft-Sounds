@@ -1,0 +1,37 @@
+{
+  "parent": "ssc_snd:change/jakq/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:jakq_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:jakq_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:jakq_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:big_one_red_rose"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/jakq/big_one"
+  }
+}

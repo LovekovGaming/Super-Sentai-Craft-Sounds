@@ -1,0 +1,48 @@
+{
+  "parent": "ssc_snd:drop/jakq/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"mainhand": {
+				  "items": [
+					"minecraft:air"
+				  ]
+				},
+			"head": {
+			  "items": [
+				"supersentaicraft:jakq_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:jakq_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:jakq_legs"
+			  ]
+			},
+				"feet": {
+				  "items": [
+					"minecraft:air"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:drop/jakq/jakq"
+  }
+}

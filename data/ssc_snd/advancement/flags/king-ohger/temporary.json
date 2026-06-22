@@ -1,0 +1,20 @@
+{
+  "parent": "ssc_snd:flags/root",
+  "criteria": {
+	"ohgai_busou_kuwagata": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ohgai_busou_tonbo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ohgai_busou_kamakiri": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ohgai_busou_papillon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ohgai_busou_hachi": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

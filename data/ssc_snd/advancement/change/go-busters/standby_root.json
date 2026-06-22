@@ -1,0 +1,9 @@
+{
+    "parent": "ssc_snd:change/go-busters/root",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

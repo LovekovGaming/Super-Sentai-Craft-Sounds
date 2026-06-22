@@ -1,0 +1,9 @@
+{
+    "parent": "ssc_snd:change/lupat/root",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

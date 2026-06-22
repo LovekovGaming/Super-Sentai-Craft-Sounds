@@ -1,0 +1,9 @@
+{
+    "parent": "ssc_snd:change/boukenger/root",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

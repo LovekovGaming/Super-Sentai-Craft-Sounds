@@ -1,0 +1,78 @@
+{
+	"parent": "ssc_snd:change/gavan_infinity/standby_root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "gekido": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "hisor": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "kanky": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "maikka": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "keeg": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"ssc_snd:change/gavan_infinity/gavarion_trigger_standby": {
+					  "1": true
+					}
+				  }
+				},
+				"equipment": {
+				  "head": {
+					"items": [
+					  "supersentaicraft:gavan_infinity_head"
+					]
+				  },
+				  "chest": {
+					"items": [
+					  "supersentaicraft:gavan_infinity_torso"
+					]
+				  },
+				  "legs": {
+					"items": [
+					  "supersentaicraft:gavan_infinity_legs"
+					]
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+		[
+			"1",
+			"gekido",
+			"hisor",
+			"kanky",
+			"maikka",
+			"keeg"
+		],
+		[
+			"2"
+		]
+	],
+	"rewards": {
+	  "function": "ssc_snd:change/gavan_infinity/standby/gavarion_trigger"
+	}
+  }
+  

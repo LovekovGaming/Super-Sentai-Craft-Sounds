@@ -1,0 +1,77 @@
+{
+  "parent": "ssc_snd:drop/maskman/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:x1_aura_power"
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  				  "slots": {
+				    "container.*": {
+					  "items": "supersentaicraft:x1_masking_brace"
+				    }
+				  },
+			  "equipment": {
+				"head": {
+				  "items": [
+					"supersentaicraft:maskman_head"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"supersentaicraft:maskman_torso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"supersentaicraft:maskman_legs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"minecraft:air"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:drop/maskman/x1_mask"
+  }
+}

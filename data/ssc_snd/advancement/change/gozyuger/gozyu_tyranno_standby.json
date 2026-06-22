@@ -1,0 +1,72 @@
+{
+	"parent": "ssc_snd:change/gozyuger/standby_root",
+	"criteria": {
+	  "clap": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"ssc_snd:change/gozyuger/gozyu_tyranno_standby": {
+					  "1": true
+					}
+				  }
+				},
+				"equipment": {
+				  "head": {
+					"items": [
+					  "supersentaicraft:gozyuger_head"
+					]
+				  },
+				  "chest": {
+					"items": [
+					  "supersentaicraft:gozyuger_torso"
+					]
+				  },
+				  "legs": {
+					"items": [
+					  "supersentaicraft:gozyuger_legs"
+					]
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"ssc.change-stage": {
+                  "min": 1,
+                  "max": 7
+                }
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+	  [
+	    "clap",
+	    "1"
+	  ],
+	  [
+	    "2"
+	  ]
+	],
+	"rewards": {
+	  "function": "ssc_snd:change/gozyuger/standby/gozyu_tyranno"
+	}
+  }
+  

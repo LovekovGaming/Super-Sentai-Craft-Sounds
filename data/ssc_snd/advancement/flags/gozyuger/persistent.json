@@ -1,0 +1,11 @@
+{
+  "parent": "ssc_snd:flags/root",
+  "criteria": {
+	"powered_up_uw": {
+	  "trigger": "minecraft:impossible"
+	},
+	"orca_boost": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

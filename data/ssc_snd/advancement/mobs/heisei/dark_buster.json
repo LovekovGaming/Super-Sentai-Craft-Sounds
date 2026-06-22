@@ -1,0 +1,16 @@
+{
+  "parent": "ssc_snd:mobs/heisei/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "kamenridercraft:bugler"
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:mobs/heisei/dark_buster"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "ssc_snd:change/go-busters/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:go_busters_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:go_busters_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:go_busters_legs"
+			  ]
+			},
+			"feet": {
+			  "items": "#ssc_snd:changers/morphin_blaster"
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/go-busters/morphin_blaster"
+  }
+}

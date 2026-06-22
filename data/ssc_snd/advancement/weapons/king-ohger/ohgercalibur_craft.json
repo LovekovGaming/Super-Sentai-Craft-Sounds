@@ -1,0 +1,15 @@
+{
+	"parent": "ssc_snd:weapons/king-ohger/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "supersentaicraft:king-ohger/ohger_calibur"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "ssc_snd:weapons/king-ohger/ohgercalibur_craft"
+	}
+  }
+  

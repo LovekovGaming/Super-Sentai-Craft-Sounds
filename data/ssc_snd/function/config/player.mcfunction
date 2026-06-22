@@ -1,0 +1,4 @@
+advancement revoke @s only ssc_snd:config/main_menu
+tellraw @s ["",{"text":"SSC Sounds - Settings","bold":true,"color":"gray"},"\n","\n",{"text":"Sound Toggles","bold":true,"underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger ssc.configs.sounds set 2"},"hoverEvent":{"action":"show_text","contents":["Toggle sound sources for yourself"]}}," ",{"text":"Player Settings","bold":true,"underlined":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/trigger ssc.configs.sounds set 3"},"hoverEvent":{"action":"show_text","contents":["Adjust sounds to your liking"]}},"\n"]
+scoreboard players reset @s ssc.configs.sounds
+scoreboard players enable @s ssc.configs.sounds

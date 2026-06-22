@@ -1,0 +1,37 @@
+{
+  "parent": "ssc_snd:change/sun_vulcan/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:sun_vulcan_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:sun_vulcan_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:sun_vulcan_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:eagle_vulcan_brace"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/sun_vulcan/vul_eagle"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "ssc_snd:drop/sun_vulcan/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:vul_eagle_medal"
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  				  "slots": {
+				    "container.*": {
+					  "items": "supersentaicraft:eagle_vulcan_brace"
+				    }
+				  },
+			  "equipment": {
+				"head": {
+				  "items": [
+					"supersentaicraft:sun_vulcan_head"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"supersentaicraft:sun_vulcan_torso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"supersentaicraft:sun_vulcan_legs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"minecraft:air"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:drop/sun_vulcan/vul_eagle"
+  }
+}

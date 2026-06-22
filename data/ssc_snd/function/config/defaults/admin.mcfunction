@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Admin settings reset to default!","color":"green"}]

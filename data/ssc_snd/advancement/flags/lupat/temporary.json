@@ -1,0 +1,32 @@
+{
+  "parent": "ssc_snd:flags/root",
+  "criteria": {
+	"kaitou_change_red": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kaitou_change_blue": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kaitou_change_yellow": {
+	  "trigger": "minecraft:impossible"
+	},
+	"keisatsu_change_1gou": {
+	  "trigger": "minecraft:impossible"
+	},
+	"keisatsu_change_2gou": {
+	  "trigger": "minecraft:impossible"
+	},
+	"keisatsu_change_3gou": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kaitou_change": {
+	  "trigger": "minecraft:impossible"
+	},
+	"keisatsu_change": {
+	  "trigger": "minecraft:impossible"
+	},
+	"x_change": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "parent": "ssc_snd:change/jakq/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:jakq_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:jakq_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:jakq_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:ace_powered_capsule"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:jakq_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:jakq_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:jakq_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:jack_powered_capsule"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:jakq_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:jakq_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:jakq_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:queen_powered_capsule"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"4": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:jakq_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:jakq_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:jakq_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:king_powered_capsule"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+    [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  ],
+  "rewards": {
+	"function": "ssc_snd:change/jakq/jakq"
+  }
+}

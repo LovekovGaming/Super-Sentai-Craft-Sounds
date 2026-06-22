@@ -1,0 +1,55 @@
+{
+  "parent": "ssc_snd:change/common/detransform_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:inverted",
+				"term": {
+				  "condition": "minecraft:reference",
+				  "name": "ssc_core:reiwa/gozyuger_armor"
+				}
+			  },
+			  {
+			    "condition": "minecraft:entity_properties",
+			    "entity": "this",
+			    "predicate": {
+			      "equipment": {
+			        "feet": {
+			          "items": "minecraft:air"
+			        }
+			      }
+			    }
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "ssc_snd:change/gozyuger/tega_sword_off": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/gozyuger/tega_sword_off"
+  }
+}

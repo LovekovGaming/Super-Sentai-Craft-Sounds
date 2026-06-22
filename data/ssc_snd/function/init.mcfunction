@@ -1,0 +1,12 @@
+scoreboard objectives add ssc.change-stage dummy
+scoreboard objectives add ssc.seq1 dummy
+scoreboard objectives add ssc.seq2 dummy
+scoreboard objectives add ssc.seq3 dummy
+scoreboard objectives add ssc.seq4 dummy
+scoreboard objectives add ssc-item.zubaan minecraft.used:supersentaicraft.seiken_zubaan
+scoreboard objectives add ssc.configs.sounds trigger
+scoreboard objectives add ssc.configs.sound_subs dummy
+scoreboard objectives add ssc.configs.change_snd dummy
+scoreboard objectives add ssc.configs.detransform_snd dummy
+scoreboard objectives add ssc.configs.weapon_snd dummy
+scoreboard objectives add ssc.configs.mob_snd dummy

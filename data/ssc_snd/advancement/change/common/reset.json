@@ -1,0 +1,22 @@
+{
+  "parent": "ssc_snd:change/common/detransform_root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"feet": {
+			  "items": [
+				"minecraft:air"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/reset"
+  }
+}

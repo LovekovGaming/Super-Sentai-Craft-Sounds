@@ -1,0 +1,35 @@
+{
+  "parent": "ssc_snd:change/gavan_infinity/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:gavan_infinity_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:gavan_infinity_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:gavan_infinity_legs"
+			  ]
+			},
+			"feet": {
+			  "items": "#ssc_snd:changers/gavarion_trigger"
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/gavan_infinity/gavarion_trigger"
+  }
+}

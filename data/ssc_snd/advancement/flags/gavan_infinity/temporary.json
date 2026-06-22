@@ -1,0 +1,23 @@
+{
+  "parent": "ssc_snd:flags/root",
+  "criteria": {
+	"jouchaku_infinity": {
+	  "trigger": "minecraft:impossible"
+	},
+	"jouchaku_bushido": {
+	  "trigger": "minecraft:impossible"
+	},
+	"jouchaku_luminous": {
+	  "trigger": "minecraft:impossible"
+	},
+	"jouchaku_ameise": {
+	  "trigger": "minecraft:impossible"
+	},
+	"jouchaku_raiya": {
+	  "trigger": "minecraft:impossible"
+	},
+	"jouchaku_process": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

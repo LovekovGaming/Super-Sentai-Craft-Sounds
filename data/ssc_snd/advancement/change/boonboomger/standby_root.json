@@ -1,0 +1,9 @@
+{
+    "parent": "ssc_snd:change/boonboomger/root",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,15 @@
+{
+	"parent": "ssc_snd:weapons/gavan_infinity/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "supersentaicraft:gavan_infinity/gavarion_trigger"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "ssc_snd:weapons/gavan_infinity/gavarion_trigger_craft"
+	}
+  }
+  

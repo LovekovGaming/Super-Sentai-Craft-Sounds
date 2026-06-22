@@ -1,0 +1,144 @@
+{
+  "parent": "ssc_snd:drop/goranger/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:ao_star"
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:goranger_manga"
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  				  "slots": {
+				    "container.*": {
+					  "items": "supersentaicraft:aoranger_belt"
+				    }
+				  },
+			  "equipment": {
+				"head": {
+				  "items": [
+					"supersentaicraft:goranger_head"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"supersentaicraft:goranger_torso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"supersentaicraft:goranger_legs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"minecraft:air"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+								  "slots": {
+				    "container.*": {
+					  "items": "supersentaicraft:akaranger_belt"
+				    }
+				  }
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+								  "slots": {
+				    "container.*": {
+					  "items": "supersentaicraft:kiranger_belt"
+				    }
+				  }
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+								  "slots": {
+				    "container.*": {
+					  "items": "supersentaicraft:midoranger_belt"
+				    }
+				  }
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+								  "slots": {
+				    "container.*": {
+					  "items": "supersentaicraft:momoranger_belt"
+				    }
+				  }
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:drop/goranger/aoranger"
+  }
+}

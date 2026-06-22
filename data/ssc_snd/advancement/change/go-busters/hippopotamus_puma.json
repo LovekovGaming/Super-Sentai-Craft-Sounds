@@ -1,0 +1,72 @@
+{
+  "parent": "ssc_snd:change/go-busters/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:go_busters_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:go_busters_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:go_busters_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:hippopotamus_morphin_brace"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:go_busters_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:go_busters_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:go_busters_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:puma_morphin_brace"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "ssc_snd:change/go-busters/hippopotamus_puma"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "parent": "ssc_snd:drop/gozyuger/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:gozyu_wolf_ring"
+					}
+				  },
+				  "slots": {
+				    "container.*": {
+					  "items": "#ssc_snd:weapons/tega_sword"
+				    }
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:gozyu_leon_ring"
+					}
+				  },
+				  "slots": {
+				    "container.*": {
+					  "items": "#ssc_snd:weapons/tega_sword"
+				    }
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:gozyu_tyranno_ring"
+					}
+				  },
+				  "slots": {
+				    "container.*": {
+					  "items": "#ssc_snd:weapons/tega_sword"
+				    }
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:gozyu_eagle_ring"
+					}
+				  },
+				  "slots": {
+				    "container.*": {
+					  "items": "#ssc_snd:weapons/tega_sword"
+				    }
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:gozyu_unicorn_ring"
+					}
+				  },
+				  "slots": {
+				    "container.*": {
+					  "items": "#ssc_snd:weapons/tega_sword"
+				    }
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "#ssc_snd:form_items/sentai_rings"
+					}
+				  },
+				  "slots": {
+				    "container.*": {
+					  "items": "#ssc_snd:weapons/tega_sword"
+				    }
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "supersentaicraft:ryou_tega_sword_ring"
+					}
+				  },
+				  "slots": {
+				    "container.*": {
+					  "items": "supersentaicraft:tega_sword"
+				    }
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"supersentaicraft:gozyuger_head"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"supersentaicraft:gozyuger_torso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"supersentaicraft:gozyuger_legs"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": "#ssc_snd:changers/tega_sword"
+					}
+				  }
+				}
+			  }
+			]
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:drop/gozyuger/gozyuger"
+  }
+}

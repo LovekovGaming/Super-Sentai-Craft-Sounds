@@ -1,0 +1,37 @@
+{
+  "parent": "ssc_snd:change/maskman/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"supersentaicraft:maskman_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"supersentaicraft:maskman_torso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"supersentaicraft:maskman_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"supersentaicraft:x1_masking_brace"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/maskman/x1_mask"
+  }
+}

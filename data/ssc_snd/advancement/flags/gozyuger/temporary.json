@@ -1,0 +1,26 @@
+{
+  "parent": "ssc_snd:flags/root",
+  "criteria": {
+	"engage_wolf": {
+	  "trigger": "minecraft:impossible"
+	},
+	"engage_leon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"engage_tyranno": {
+	  "trigger": "minecraft:impossible"
+	},
+	"engage_eagle": {
+	  "trigger": "minecraft:impossible"
+	},
+	"engage_unicorn": {
+	  "trigger": "minecraft:impossible"
+	},
+	"engage_uw": {
+	  "trigger": "minecraft:impossible"
+	},
+	"engage_tegasword": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}
