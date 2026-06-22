@@ -1,0 +1,1928 @@
+{
+	"akaranger": {
+		"subtitle": "Akaranger change",
+		"sounds": [
+			"supersentaicraft:goranger/akaranger"
+		]
+	},
+	"aoranger_kiranger": {
+		"subtitle": "Aoranger/Kiranger change",
+		"sounds": [
+			"supersentaicraft:goranger/aoranger_kiranger"
+		]
+	},
+	"midoranger": {
+		"subtitle": "Midoranger change",
+		"sounds": [
+			"supersentaicraft:goranger/midoranger"
+		]
+	},
+	"momoranger": {
+		"subtitle": "Momoranger change",
+		"sounds": [
+			"supersentaicraft:goranger/momoranger"
+		]
+	},
+	"powered_capsule_enter": {
+		"subtitle": "Powered Capsule enter",
+		"sounds": [
+			"supersentaicraft:jakq/capsule_enter"
+		]
+	},
+	"powered_capsule_plug_spade_dia": {
+		"subtitle": "Powered Capsule plugged",
+		"sounds": [
+			"supersentaicraft:jakq/capsule_plug_spade_dia"
+		]
+	},
+	"powered_capsule_plug_heart_clover": {
+		"subtitle": "Powered Capsule plugged",
+		"sounds": [
+			"supersentaicraft:jakq/capsule_plug_heart_clover"
+		]
+	},
+	"powered_capsule_charge": {
+		"subtitle": "Powered Capsule charge",
+		"sounds": [
+			"supersentaicraft:jakq/capsule_charge"
+		]
+	},
+	"jakq": {
+		"subtitle": "J.A.K.Q. change",
+		"sounds": [
+			"supersentaicraft:jakq/jakq"
+		]
+	},
+	"big_one": {
+		"subtitle": "Big One change",
+		"sounds": [
+			"supersentaicraft:jakq/big_one"
+		]
+	},
+	"vul_eagle": {
+		"subtitle": "Vul Eagle change",
+		"sounds": [
+			"supersentaicraft:sun_vulcan/vul_eagle"
+		]
+	},
+	"vul_shark": {
+		"subtitle": "Vul Shark change",
+		"sounds": [
+			"supersentaicraft:sun_vulcan/vul_shark"
+		]
+	},
+	"vul_panther": {
+		"subtitle": "Vul Panther change",
+		"sounds": [
+			"supersentaicraft:sun_vulcan/vul_panther"
+		]
+	},
+	"sun_vulcan_robo": {
+		"subtitle": "Sun Vulcan Robo combine",
+		"sounds": [
+			{
+				"name": "supersentaicraft:sun_vulcan/sun_vulcan_robo",
+				"stream": true
+			}
+		]
+	},
+	"maskman": {
+		"subtitle": "Maskman change",
+		"sounds": [
+			"supersentaicraft:maskman/maskman"
+		]
+	},
+	"x1_mask": {
+		"subtitle": "X1 Mask change",
+		"sounds": [
+			"supersentaicraft:maskman/x1_mask"
+		]
+	},
+	"accellular_ready": {
+		"subtitle": "Accellular ready",
+		"sounds": [
+			"supersentaicraft:boukenger/accellular/ready"
+		]
+	},
+	"accellular_henshin_button": {
+		"subtitle": "Accellular button pressed",
+		"sounds": [
+			"supersentaicraft:boukenger/accellular/henshin_button"
+		]
+	},
+	"accellular_standby": {
+		"subtitle": "Accellular standby",
+		"sounds": [
+			"supersentaicraft:boukenger/accellular/standby"
+		]
+	},
+	"boukenger_start_up": {
+		"subtitle": "Boukenger, Start Up",
+		"sounds": [
+			"supersentaicraft:boukenger/accellular/start_up"
+		]
+	},
+	"accel_tector": {
+		"subtitle": "Accel Tector equips",
+		"sounds": [
+			"supersentaicraft:boukenger/accellular/accel_tector"
+		]
+	},
+	"gogo_changer_open": {
+		"subtitle": "GoGo Changer opens",
+		"sounds": [
+			"supersentaicraft:boukenger/gogo_changer/open"
+		]
+	},
+	"bouken_silver": {
+		"subtitle": "Start Up",
+		"sounds": [
+			"supersentaicraft:boukenger/gogo_changer/start_up"
+		]
+	},
+	"zubaan_transform": {
+		"subtitle": "Zubaan transform",
+		"sounds": [
+			"supersentaicraft:boukenger/zubaan/transform"
+		]
+	},
+	"zubaan": {
+		"subtitle": "Zubaan!",
+		"sounds": [
+			"supersentaicraft:boukenger/zubaan/zubaan"
+		]
+	},
+	"go-busters_changer_craft": {
+		"subtitle": "Go-Busters changer crafted",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_brace/craft"
+		]
+	},
+	"morphin_brace_dial_turn": {
+		"subtitle": "Morphin Brace dial turns",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_brace/dial_turn"
+		]
+	},
+	"morphin_brace_open": {
+		"subtitle": "Morphin Brace opens",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_brace/open"
+		]
+	},
+	"its_morphin_time": {
+		"subtitle": "It's Morphin' Time",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_brace/its_morphin_time"
+		]
+	},
+	"custom_visor_set": {
+		"subtitle": "Custom Visor set",
+		"sounds": [
+			"supersentaicraft:go-busters/custom_visor/set"
+		]
+	},
+	"custom_visor_activate": {
+		"subtitle": "Custom Visor activates",
+		"sounds": [
+			"supersentaicraft:go-busters/custom_visor/are_you_ready"
+		]
+	},
+	"custom_visor_open": {
+		"subtitle": "Custom Visor opens",
+		"sounds": [
+			"supersentaicraft:go-busters/custom_visor/open"
+		]
+	},
+	"powered_custom": {
+		"subtitle": "Powered Custom",
+		"sounds": [
+			"supersentaicraft:go-busters/custom_visor/powered_custom"
+		]
+	},
+	"morphin_brace_standby": {
+		"subtitle": "Morphin Brace standby",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_brace/standby"
+		]
+	},
+	"lets_morphin": {
+		"subtitle": "Go-Busters change",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_brace/change"
+		]
+	},
+	"morphin_blaster_gun_mode": {
+		"subtitle": "Morphin Blaster gun mode",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_blaster/gun_mode"
+		]
+	},
+	"morphin_blaster": {
+		"subtitle": "Morphin Blaster fired",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_blaster/fire"
+		]
+	},
+	"morphin_blaster_standby": {
+		"subtitle": "Morphin Blaster standby",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_blaster/standby"
+		]
+	},
+	"lets_morphin_blaster": {
+		"subtitle": "Go-Busters change",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_blaster/change"
+		]
+	},
+	"dark_buster": {
+		"subtitle": "Dark Buster change",
+		"sounds": [
+			"supersentaicraft:go-busters/morphin_brace/dark_buster"
+		]
+	},
+	"vs_vehicle_in": {
+		"subtitle": "VS Vehicle inserted",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/vehicle_in"
+		]
+	},
+	"dial_fighter_red": {
+		"subtitle": "Red",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/dial_fighter/red"
+		]
+	},
+	"dial_fighter_blue": {
+		"subtitle": "Blue",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/dial_fighter/blue"
+		]
+	},
+	"dial_fighter_yellow": {
+		"subtitle": "Yellow",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/dial_fighter/yellow"
+		]
+	},
+	"dial_fighter_scissors": {
+		"subtitle": "Scissors",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/dial_fighter/scissors"
+		]
+	},
+	"dial_fighter_magic": {
+		"subtitle": "Magic",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/dial_fighter/magic"
+		]
+	},
+	"trigger_machine_1gou": {
+		"subtitle": "1gou",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/trigger_machine/1gou"
+		]
+	},
+	"trigger_machine_2gou": {
+		"subtitle": "2gou",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/trigger_machine/2gou"
+		]
+	},
+	"trigger_machine_3gou": {
+		"subtitle": "3gou",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/trigger_machine/3gou"
+		]
+	},
+	"trigger_machine_splash": {
+		"subtitle": "Splash",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/trigger_machine/splash"
+		]
+	},
+	"trigger_machine_crane": {
+		"subtitle": "Crane",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/trigger_machine/crane"
+		]
+	},
+	"goodstriker": {
+		"subtitle": "GoodStriker",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/striker/goodstriker"
+		]
+	},
+	"jackpot_striker": {
+		"subtitle": "Jackpot",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/striker/jackpot_striker"
+		]
+	},
+	"victorystriker": {
+		"subtitle": "VictoryStriker",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/striker/victorystriker"
+		]
+	},
+	"sirenstriker": {
+		"subtitle": "SirenStriker",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/striker/sirenstriker"
+		]
+	},
+	"x_train_challenger": {
+		"subtitle": "Challenger",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/challenger"
+		]
+	},
+	"vs_vehicle_ready": {
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/vehicle_ready"
+		]
+	},
+	"vs_changer_standby": {
+		"subtitle": "VS Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/standby_basic"
+		]
+	},
+	"dial_fighter_turn": {
+		"subtitle": "Dial Fighter dial turn",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/dial_fighter/dial_turn"
+		]
+	},
+	"dial_fighter_zero": {
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/zero"
+		]
+	},
+	"dial_fighter_one": {
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/one"
+		]
+	},
+	"dial_fighter_two": {
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/two"
+		]
+	},
+	"dial_fighter_three": {
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/three"
+		]
+	},
+	"dial_fighter_six": {
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/six"
+		]
+	},
+	"dial_fighter_seven": {
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/seven"
+		]
+	},
+	"dial_fighter_nine": {
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/nine"
+		]
+	},
+	"masqueraise": {
+		"subtitle": "Masqueraise",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/masqueraise"
+		]
+	},
+	"miracle_masqueraise": {
+		"subtitle": "Miracle Masqueraise",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/miracle_masqueraise"
+		]
+	},
+	"patrize": {
+		"subtitle": "Patrize",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/patrize"
+		]
+	},
+	"great_patrize": {
+		"subtitle": "Great Patrize",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/great_patrize"
+		]
+	},
+	"ready_to_attack": {
+		"subtitle": "GoodStriker talks",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/striker/ready_to_attack"
+		]
+	},
+	"x_train_rize": {
+		"subtitle": "Rize",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/rize"
+		]
+	},
+	"vs_changer_standby_lupin": {
+		"subtitle": "VS Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/standby_lupin"
+		]
+	},
+	"vs_changer_standby_patren": {
+		"subtitle": "VS Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/standby_patren"
+		]
+	},
+	"vs_changer_standby_good": {
+		"subtitle": "VS Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/standby_good"
+		]
+	},
+	"vs_changer_standby_victory": {
+		"subtitle": "VS Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/standby_victory"
+		]
+	},
+	"vs_changer_standby_siren": {
+		"subtitle": "VS Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/standby_siren"
+		]
+	},
+	"vs_changer_standby_x_train": {
+		"subtitle": "VS Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/standby_x_train"
+		]
+	},
+	"kaitou_change": {
+		"subtitle": "Kaitou Change",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/kaitou_change"
+		]
+	},
+	"kaitou_boost": {
+		"subtitle": "Kaitou Boost",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/kaitou_boost"
+		]
+	},
+	"super_kaitou_change": {
+		"subtitle": "Super Kaitou Change",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/super_kaitou_change"
+		]
+	},
+	"keisatsu_change": {
+		"subtitle": "Keisatsu Change",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/keisatsu_change"
+		]
+	},
+	"keisatsu_boost": {
+		"subtitle": "Keisatsu Boost",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/keisatsu_boost"
+		]
+	},
+	"chou_keisatsu_change": {
+		"subtitle": "Chou Keisatsu Change",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/chou_keisatsu_change"
+		]
+	},
+	"x_train_change": {
+		"subtitle": "Change",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/change"
+		]
+	},
+	"lupinranger_change": {
+		"subtitle": "Lupinranger change",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/lupinranger"
+		]
+	},
+	"super_lupinranger": {
+		"subtitle": "Super Lupinranger",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/super_lupinranger"
+		]
+	},
+	"lupin_tricolor": {
+		"subtitle": "Lupin Tricolor",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/striker/lupin_tricolor"
+		]
+	},
+	"patranger_change": {
+		"subtitle": "Patranger change",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/patranger"
+		]
+	},
+	"patren_ugou": {
+		"subtitle": "Patren Ugou",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/patren_ugou"
+		]
+	},
+	"patren_ugou_goodstriker": {
+		"subtitle": "GoodStriker talks",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/striker/patren_ugou"
+		]
+	},
+	"super_patranger": {
+		"subtitle": "Super Patranger",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/super_patranger"
+		]
+	},
+	"scissors_boost": {
+		"subtitle": "Scissors Kaitou Boost",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/dial_fighter/scissors_boost"
+		]
+	},
+	"magic_boost": {
+		"subtitle": "Magic Kaitou Boost",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/dial_fighter/magic_boost"
+		]
+	},
+	"splash_boost": {
+		"subtitle": "Splash Keisatsu Boost",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/trigger_machine/splash_boost"
+		]
+	},
+	"crane_boost": {
+		"subtitle": "Crane Keisatsu Boost",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/trigger_machine/crane_boost"
+		]
+	},
+	"x_train_new_challenger": {
+		"subtitle": "New Challenger",
+		"sounds": [
+			"supersentaicraft:lupat/vs_changer/new_challenger"
+		]
+	},
+	"x-nize": {
+		"subtitle": "X-Nize",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/x-nize"
+		]
+	},
+	"x_changer_standby": {
+		"subtitle": "X Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/standby_x-nize"
+		]
+	},
+	"kaitou_x-change": {
+		"subtitle": "Kaitou X-Change",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/kaitou_x-change"
+		]
+	},
+	"x_changer_standby_lupin": {
+		"subtitle": "X Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/standby_lupin"
+		]
+	},
+	"keisatsu_x-change": {
+		"subtitle": "Keisatsu X-Change",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/keisatsu_x-change"
+		]
+	},
+	"x_changer_standby_patren": {
+		"subtitle": "X Changer standby",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/standby_patren"
+		]
+	},
+	"sirenstriker_lupin_x": {
+		"subtitle": "SirenStriker ready",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/sirenstriker"
+		]
+	},
+	"lupin_x": {
+		"subtitle": "Lupin X change",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/lupin_x"
+		]
+	},
+	"super_lupin_x": {
+		"subtitle": "Super Lupin X",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/super_lupin_x"
+		]
+	},
+	"patren_x": {
+		"subtitle": "Patren X change",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/patren_x"
+		]
+	},
+	"super_patren_x": {
+		"subtitle": "Super Patren X",
+		"sounds": [
+			"supersentaicraft:lupat/x_changer/super_patren_x"
+		]
+	},
+	"donblaster_yoooo": {
+		"subtitle": "DonBlaster gear spun",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/yoooo"
+		]
+	},
+	"donblaster_standby": {
+		"subtitle": "DonBlaster standby",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/standby"
+		]
+	},
+	"donblaster_don1": {
+		"subtitle": "DonBlaster gear spun",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/don1"
+		]
+	},
+	"donblaster_don2": {
+		"subtitle": "DonBlaster gear spun",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/don2"
+		]
+	},
+	"donblaster_don3": {
+		"subtitle": "DonBlaster gear spun",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/don3"
+		]
+	},
+	"donblaster_donburako": {
+		"subtitle": "DonBlaster gear spun",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/donburako"
+		]
+	},
+	"avataro": {
+		"subtitle": "Donbrothers Avataro Gear",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/gears/avataro"
+		]
+	},
+	"donblaster_standby_momotaro": {
+		"subtitle": "DonBlaster standby",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/standby_donmomotaro"
+		]
+	},
+	"donblaster_standby_saru": {
+		"subtitle": "DonBlaster standby",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/standby_sarubrother"
+		]
+	},
+	"donblaster_standby_oni": {
+		"subtitle": "DonBlaster standby",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/standby_onisister"
+		]
+	},
+	"donblaster_standby_inu": {
+		"subtitle": "DonBlaster standby",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/standby_inubrother"
+		]
+	},
+	"donblaster_standby_kiji": {
+		"subtitle": "DonBlaster standby",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/standby_kijibrother"
+		]
+	},
+	"avatar_change": {
+		"subtitle": "Avatar Change",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/avatar_change"
+		]
+	},
+	"donmomotaro": {
+		"subtitle": "DonMomotaro change",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/hey_yo/donmomotaro"
+		]
+	},
+	"sarubrother": {
+		"subtitle": "SaruBrother change",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/hey_yo/sarubrother"
+		]
+	},
+	"onisister": {
+		"subtitle": "OniSister change",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/hey_yo/onisister"
+		]
+	},
+	"inubrother": {
+		"subtitle": "InuBrother change",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/hey_yo/inubrother"
+		]
+	},
+	"kijibrother": {
+		"subtitle": "KijiBrother change",
+		"sounds": [
+			"supersentaicraft:donbrothers/donblaster/hey_yo/kijibrother"
+		]
+	},
+	"ohgercalibur_craft": {
+		"subtitle": "OhgerCalibur crafted",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/craft"
+		]
+	},
+	"ohgercalibur_start": {
+		"subtitle": "OhgerCalibur starts",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/start"
+		]
+	},
+	"ohgercalibur_standby_1": {
+		"subtitle": "OhgerCalibur standby",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/standby_1"
+		]
+	},
+	"ohgercalibur_switch_1": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch_1"
+		]
+	},
+	"ohgercalibur_standby_2": {
+		"subtitle": "OhgerCalibur standby",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/standby_2"
+		]
+	},
+	"ohgercalibur_switch_2": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch_2"
+		]
+	},
+	"ohgercalibur_standby_3": {
+		"subtitle": "OhgerCalibur standby",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/standby_3"
+		]
+	},
+	"ohgercalibur_switch_3": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch_3"
+		]
+	},
+	"ohgercalibur_standby_4": {
+		"subtitle": "OhgerCalibur standby",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/standby_4"
+		]
+	},
+	"ohgercalibur_switch_4": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch_4"
+		]
+	},
+	"ohgercalibur_standby_5": {
+		"subtitle": "OhgerCalibur standby",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/standby_5"
+		]
+	},
+	"you_are_the_king": {
+		"subtitle": "Ohgai Busou",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/you_are_the_king"
+		]
+	},
+	"kuwagata_ohger": {
+		"subtitle": "Qua God",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/king/kuwagata"
+		]
+	},
+	"tonbo_ohger": {
+		"subtitle": "Tone boy",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/king/tonbo"
+		]
+	},
+	"kamakiri_ohger": {
+		"subtitle": "Come and Kick it",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/king/kamakiri"
+		]
+	},
+	"papillon_ohger": {
+		"subtitle": "Pop it on",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/king/papillon"
+		]
+	},
+	"hachi_ohger": {
+		"subtitle": "Hatch it",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/king/hachi"
+		]
+	},
+	"ohger": {
+		"subtitle": "King-Ohger change",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/king/ohger"
+		]
+	},
+	"ohger_crown_press": {
+		"subtitle": "Ohger Crown gem presses",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohger_crown/press"
+		]
+	},
+	"ohger_crown_standby": {
+		"subtitle": "Ohger Crown standby",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohger_crown/standby"
+		]
+	},
+	"king_kuwagata_ohger": {
+		"subtitle": "Shiso Korai",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohger_crown/king_kuwagata_ohger"
+		]
+	},
+	"king_ohkuwagata_ohger": {
+		"subtitle": "Shiso Korai",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohger_crown/king_ohkuwagata_ohger"
+		]
+	},
+	"kumonos_key_in": {
+		"subtitle": "Kumonos Key inserts",
+		"sounds": [
+			"supersentaicraft:king-ohger/kumonoslayer/key_in"
+		]
+	},
+	"kumonoslayer_standby": {
+		"subtitle": "Kumonoslayer standby",
+		"sounds": [
+			"supersentaicraft:king-ohger/kumonoslayer/standby"
+		]
+	},
+	"spider_kumonos": {
+		"subtitle": "Ohgai Busou",
+		"sounds": [
+			"supersentaicraft:king-ohger/kumonoslayer/spider_kumonos"
+		]
+	},
+	"ohgercalibur_zero_start": {
+		"subtitle": "OhgerCalibur ZERO starts",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur_zero/start"
+		]
+	},
+	"ohgercalibur_zero_standby": {
+		"subtitle": "OhgerCalibur ZERO standby",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur_zero/standby"
+		]
+	},
+	"lord_of_the_shugod": {
+		"subtitle": "Ohgai Busou",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur_zero/lord_of_the_shugod"
+		]
+	},
+	"ohgercalibur_switch_kuwagata_1": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/kuwagata_1"
+		]
+	},
+	"ohgercalibur_switch_kuwagata_2": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/kuwagata_2"
+		]
+	},
+	"ohgercalibur_switch_kuwagata_3": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/kuwagata_3"
+		]
+	},
+	"ohgercalibur_switch_tonbo_1": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/tonbo_1"
+		]
+	},
+	"ohgercalibur_switch_tonbo_2": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/tonbo_2"
+		]
+	},
+	"ohgercalibur_switch_tonbo_3": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/tonbo_3"
+		]
+	},
+	"ohgercalibur_switch_kamakiri_1": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/kamakiri_1"
+		]
+	},
+	"ohgercalibur_switch_kamakiri_2": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/kamakiri_2"
+		]
+	},
+	"ohgercalibur_switch_kamakiri_3": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/kamakiri_3"
+		]
+	},
+	"ohgercalibur_switch_papillon_1": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/papillon_1"
+		]
+	},
+	"ohgercalibur_switch_papillon_2": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/papillon_2"
+		]
+	},
+	"ohgercalibur_switch_papillon_3": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/papillon_3"
+		]
+	},
+	"ohgercalibur_switch_hachi_1": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/hachi_1"
+		]
+	},
+	"ohgercalibur_switch_hachi_2": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/hachi_2"
+		]
+	},
+	"ohgercalibur_switch_hachi_3": {
+		"subtitle": "OhgerCalibur switch active",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/switch/hachi_3"
+		]
+	},
+	"kumonos_key_turn": {
+		"subtitle": "Kumonos Key turns",
+		"sounds": [
+			"supersentaicraft:king-ohger/kumonoslayer/key_turn"
+		]
+	},
+	"ryouga_issen": {
+		"subtitle": "Ryouga Issen",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/ryouga_issen"
+		]
+	},
+	"ryouga_issen_zero": {
+		"subtitle": "Ryouga Issen",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur_zero/ryouga_issen"
+		]
+	},
+	"king-ohger_detransform": {
+		"subtitle": "King-Ohger detransform",
+		"sounds": [
+			"supersentaicraft:king-ohger/ohgercalibur/detransform"
+		]
+	},
+	"boonboom_changer_start": {
+		"subtitle": "Boonboom Changer startup",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/startup"
+		]
+	},
+	"boonboom_changer_detach": {
+		"subtitle": "Boonboom Changer detached",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/detach"
+		]
+	},
+	"boonboom_changer_press_1": {
+		"subtitle": "Boonboom Changer pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/boom"
+		]
+	},
+	"boonboom_changer_press_2": {
+		"subtitle": "Boonboom Changer pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/boonboom"
+		]
+	},
+	"boonboom_changer_press_3": {
+		"subtitle": "Boonboom Changer pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/boonboonboom"
+		]
+	},
+	"boonboom_change": {
+		"subtitle": "Boonboom Change",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/change"
+		]
+	},
+	"boonboom_booster_press_1": {
+		"subtitle": "Boonboom Booster pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_booster/boom"
+		]
+	},
+	"boonboom_booster_press_2": {
+		"subtitle": "Boonboom Booster pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_booster/boonboom"
+		]
+	},
+	"boonboom_booster_press_3": {
+		"subtitle": "Boonboom Booster pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_booster/boonboonboom"
+		]
+	},
+	"boonboom_change_booster": {
+		"subtitle": "Boonboom Change",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_booster/change"
+		]
+	},
+	"boonboom_controller_press_1": {
+		"subtitle": "Boonboom Controller button pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_controller/press_1"
+		]
+	},
+	"boonboom_controller_press_2": {
+		"subtitle": "Boonboom Controller button pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_controller/press_2"
+		]
+	},
+	"boonboom_controller_press_3": {
+		"subtitle": "Boonboom Controller button pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_controller/press_3"
+		]
+	},
+	"boonboom_controller_byun": {
+		"subtitle": "Boonboom Controller button pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_controller/byun"
+		]
+	},
+	"boonboom_controller_byunbyum": {
+		"subtitle": "Boonboom Controller button pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_controller/byunbyum"
+		]
+	},
+	"boonboom_controller_byunbyunbyum": {
+		"subtitle": "Boonboom Controller button pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_controller/byunbyunbyum"
+		]
+	},
+	"boonboom_controller_standby": {
+		"subtitle": "Boonboom Controller standby",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_controller/standby"
+		]
+	},
+	"byunbyum_change": {
+		"subtitle": "Byunbyum Change",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_controller/change"
+		]
+	},
+	"zoonzoom_shokablaster_start": {
+		"subtitle": "Zoonzoom Shokablaster startup",
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/startup"
+		]
+	},
+	"zoonzoom_shokablaster_pump": {
+		"subtitle": "Zoonzoom Shokablaster pumped",
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/pump"
+		]
+	},
+	"zoonzoom_shokablaster_one": {
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/one"
+		]
+	},
+	"zoonzoom_shokablaster_one_2": {
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/one_2"
+		]
+	},
+	"zoonzoom_shokablaster_pump_2": {
+		"subtitle": "Zoonzoom Shokablaster pumped",
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/pump_2"
+		]
+	},
+	"zoonzoom_shokablaster_nine": {
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/nine"
+		]
+	},
+	"zoonzoom_shokablaster_standby": {
+		"subtitle": "Boonboom Controller standby",
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/standby"
+		]
+	},
+	"bun_red_119": {
+		"subtitle": "Zoonzoom Change",
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/bun_red_119"
+		]
+	},
+	"bun_007_110": {
+		"subtitle": "Zoonzoom Change",
+		"sounds": [
+			"supersentaicraft:boonboomger/zoonzoom_shokablaster/bun_007_110"
+		]
+	},
+	"champion_changer_press_1": {
+		"subtitle": "Champion Changer pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/champion/boom"
+		]
+	},
+	"champion_changer_press_2": {
+		"subtitle": "Champion Changer pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/champion/boonboom"
+		]
+	},
+	"champion_changer_press_3": {
+		"subtitle": "Champion Changer pressed",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/champion/boonboonboom"
+		]
+	},
+	"champion_changer_standby": {
+		"subtitle": "Champion Changer standby",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/champion/standby"
+		]
+	},
+	"champion_changer_attach": {
+		"subtitle": "Champion Changer attached",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/champion/attach"
+		]
+	},
+	"champion_change": {
+		"subtitle": "Champion Change",
+		"sounds": [
+			"supersentaicraft:boonboomger/boonboom_changer/champion/change"
+		]
+	},
+	"sentai_ring_in": {
+		"subtitle": "Sentai Ring inserted",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/sentai_ring_in"
+		]
+	},
+	"clap_your_hands": {
+		"subtitle": "Clap Your Hands",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/clap_your_hands"
+		]
+	},
+	"sentai_ring": {
+		"subtitle": "Sentai Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/sentai_ring"
+		]
+	},
+	"tega_sword_standby_wolf": {
+		"subtitle": "Tega Sword standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/standby_wolf"
+		]
+	},
+	"tega_sword_standby_leon": {
+		"subtitle": "Tega Sword standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/standby_leon"
+		]
+	},
+	"tega_sword_standby_tyranno": {
+		"subtitle": "Tega Sword standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/standby_tyranno"
+		]
+	},
+	"tega_sword_standby_eagle": {
+		"subtitle": "Tega Sword standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/standby_eagle"
+		]
+	},
+	"tega_sword_standby_unicorn": {
+		"subtitle": "Tega Sword standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/standby_unicorn"
+		]
+	},
+	"tega_sword_standby_sentai": {
+		"subtitle": "Tega Sword standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/standby_sentai"
+		]
+	},
+	"tega_sword_standby_clap": {
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/standby_clap"
+		]
+	},
+	"tega_sword_standby_clap_sentai": {
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/standby_clap_sentai"
+		]
+	},
+	"tega_sword_clap": {
+		"subtitle": "Tega Sword clap",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/clap"
+		]
+	},
+	"sentai_ring_in_june": {
+		"subtitle": "Sentai Ring inserted",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/sentai_ring_in"
+		]
+	},
+	"sentai_ring_in_goodeburn": {
+		"subtitle": "Sentai Ring inserted",
+		"sounds": [
+			"supersentaicraft:gozyuger/goodeburn/sentai_ring_in"
+		]
+	},
+	"sentai_ring_in_teganagure": {
+		"subtitle": "Sentai Ring inserted",
+		"sounds": [
+			"supersentaicraft:gozyuger/goodeburn/sentai_ring_in_nagure"
+		]
+	},
+	"tega_june_standby": {
+		"subtitle": "Tega Sword standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/standby"
+		]
+	},
+	"tega_june_standby_cock": {
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/standby_cock"
+		]
+	},
+	"tega_june_garyudo_start": {
+		"subtitle": "Tega June standby start",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/tega_june_garyudo_start"
+		]
+	},
+	"tega_june_garyudo_standby": {
+		"subtitle": "Tega June standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/tega_june_garyudo_standby"
+		]
+	},
+	"tega_june_cock": {
+		"subtitle": "Tega June cock",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/cock"
+		]
+	},
+	"goodeburn_standby": {
+		"subtitle": "GoodeBurn standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/goodeburn/standby"
+		]
+	},
+	"teganagure_standby": {
+		"subtitle": "TegaNagure standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/goodeburn/standby_nagure"
+		]
+	},
+	"gozyuger_engage": {
+		"subtitle": "Engage",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/engage"
+		]
+	},
+	"gozyu_wolf": {
+		"subtitle": "Gozyu Wolf change",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gozyu_wolf"
+		]
+	},
+	"gozyu_leon": {
+		"subtitle": "Gozyu Leon change",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gozyu_leon"
+		]
+	},
+	"gozyu_tyranno": {
+		"subtitle": "Gozyu Tyranno change",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gozyu_tyranno"
+		]
+	},
+	"gozyu_eagle": {
+		"subtitle": "Gozyu Eagle change",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gozyu_eagle"
+		]
+	},
+	"gozyu_unicorn": {
+		"subtitle": "Gozyu Unicorn change",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gozyu_unicorn"
+		]
+	},
+	"gozyu_polar": {
+		"subtitle": "Gozyu Polar change",
+		"sounds": [
+			"supersentaicraft:gozyuger/goodeburn/gozyu_polar"
+		]
+	},
+	"gozyu_polar_god": {
+		"subtitle": "Gozyu Polar change",
+		"sounds": [
+			"supersentaicraft:gozyuger/goodeburn/gozyu_polar_god"
+		]
+	},
+	"garyudo": {
+		"subtitle": "Garyudo change",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/garyudo"
+		]
+	},
+	"garyudo_ring": {
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/ring/garyudo"
+		]
+	},
+	"tega_june_garyudo": {
+		"subtitle": "Tega June Garyudo change",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_june/tega_june_garyudo"
+		]
+	},
+	"sentai_ring_active": {
+		"subtitle": "Sentai Ring active",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/sentai_ring"
+		]
+	},
+	"goranger_ring": {
+		"subtitle": "Goranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/goranger"
+		]
+	},
+	"jakq_ring": {
+		"subtitle": "J.A.K.Q. Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/jakq"
+		]
+	},
+	"battle_fever_ring": {
+		"subtitle": "Battle Fever Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/battle_fever"
+		]
+	},
+	"killer_battle_japan": {
+		"subtitle": "Killer Battle Japan",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/killer_battle_japan"
+		]
+	},
+	"denziman_ring": {
+		"subtitle": "Denziman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/denziman"
+		]
+	},
+	"sun_vulcan_ring": {
+		"subtitle": "Sun Vulcan Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/sun_vulcan"
+		]
+	},
+	"goggle_v_ring": {
+		"subtitle": "Goggle V Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/goggle_v"
+		]
+	},
+	"dynaman_ring": {
+		"subtitle": "Dynaman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/dynaman"
+		]
+	},
+	"bioman_ring": {
+		"subtitle": "Bioman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/bioman"
+		]
+	},
+	"changeman_ring": {
+		"subtitle": "Changeman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/changeman"
+		]
+	},
+	"flashman_ring": {
+		"subtitle": "Flashman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/flashman"
+		]
+	},
+	"maskman_ring": {
+		"subtitle": "Maskman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/maskman"
+		]
+	},
+	"liveman_ring": {
+		"subtitle": "Liveman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/liveman"
+		]
+	},
+	"turboranger_ring": {
+		"subtitle": "Turboranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/turboranger"
+		]
+	},
+	"fiveman_ring": {
+		"subtitle": "Fiveman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/fiveman"
+		]
+	},
+	"jetman_ring": {
+		"subtitle": "Jetman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/jetman"
+		]
+	},
+	"zyuranger_ring": {
+		"subtitle": "Zyuranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/zyuranger"
+		]
+	},
+	"dairanger_ring": {
+		"subtitle": "Dairanger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/dairanger"
+		]
+	},
+	"kakuranger_ring": {
+		"subtitle": "Kakuranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/kakuranger"
+		]
+	},
+	"ohranger_ring": {
+		"subtitle": "Ohranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/ohranger"
+		]
+	},
+	"carranger_ring": {
+		"subtitle": "Carranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/carranger"
+		]
+	},
+	"bousou_red_racer": {
+		"subtitle": "Bousou Red Racer",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/bousou_red_racer"
+		]
+	},
+	"megaranger_ring": {
+		"subtitle": "Megaranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/megaranger"
+		]
+	},
+	"gingaman_ring": {
+		"subtitle": "Gingaman Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gingaman"
+		]
+	},
+	"gogofive_ring": {
+		"subtitle": "GoGoFive Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gogofive"
+		]
+	},
+	"timeranger_ring": {
+		"subtitle": "Timeranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/timeranger"
+		]
+	},
+	"gaoranger_ring": {
+		"subtitle": "Gaoranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gaoranger"
+		]
+	},
+	"hurricaneger_ring": {
+		"subtitle": "Hurricaneger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/hurricaneger"
+		]
+	},
+	"abaranger_ring": {
+		"subtitle": "Abaranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/abaranger"
+		]
+	},
+	"dekaranger_ring": {
+		"subtitle": "Dekaranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/dekaranger"
+		]
+	},
+	"armed_dekared": {
+		"subtitle": "Armed DekaRed",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/armed_dekared"
+		]
+	},
+	"magiranger_ring": {
+		"subtitle": "Magiranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/magiranger"
+		]
+	},
+	"boukenger_ring": {
+		"subtitle": "Boukenger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/boukenger"
+		]
+	},
+	"gekiranger_ring": {
+		"subtitle": "Gekiranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gekiranger"
+		]
+	},
+	"go-onger_ring": {
+		"subtitle": "Go-Onger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/go-onger"
+		]
+	},
+	"shinkenger_ring": {
+		"subtitle": "Shinkenger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/shinkenger"
+		]
+	},
+	"goseiger_ring": {
+		"subtitle": "Goseiger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/goseiger"
+		]
+	},
+	"gokaiger_ring": {
+		"subtitle": "Gokaiger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/gokaiger"
+		]
+	},
+	"go-busters_ring": {
+		"subtitle": "Go-Busters Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/go-busters"
+		]
+	},
+	"kyoryuger_ring": {
+		"subtitle": "Kyoryuger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/kyoryuger"
+		]
+	},
+	"toqger_ring": {
+		"subtitle": "Toqger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/toqger"
+		]
+	},
+	"ninninger_ring": {
+		"subtitle": "Ninninger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/ninninger"
+		]
+	},
+	"zyuohger_ring": {
+		"subtitle": "Zyuohger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/zyuohger"
+		]
+	},
+	"zyuoh_gorilla_gozyuger": {
+		"subtitle": "Zyuoh Gorilla change",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/zyuoh_gorilla"
+		]
+	},
+	"kyuranger_ring": {
+		"subtitle": "Kyuranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/kyuranger"
+		]
+	},
+	"lupinranger_ring": {
+		"subtitle": "Lupinranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/lupinranger"
+		]
+	},
+	"patranger_ring": {
+		"subtitle": "Patranger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/patranger"
+		]
+	},
+	"ryusoulger_ring": {
+		"subtitle": "Ryusoulger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/ryusoulger"
+		]
+	},
+	"kiramager_ring": {
+		"subtitle": "Kiramager Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/kiramager"
+		]
+	},
+	"zenkaiger_ring": {
+		"subtitle": "Zenkaiger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/zenkaiger"
+		]
+	},
+	"donbrothers_ring": {
+		"subtitle": "Donbrothers Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/donbrothers"
+		]
+	},
+	"king-ohger_ring": {
+		"subtitle": "King-Ohger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/king-ohger"
+		]
+	},
+	"boonboomger_ring": {
+		"subtitle": "Boonboomger Ring",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/boonboomger"
+		]
+	},
+	"orca_boost": {
+		"subtitle": "Orca Boost",
+		"sounds": [
+			"supersentaicraft:gozyuger/orcabooster5050/orca_boost"
+		]
+	},
+	"wild_power_up": {
+		"subtitle": "Wild Power Up",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/ring/wild_power_up"
+		]
+	},
+	"ryotegasword_craft": {
+		"subtitle": "RyoTegaSword crafted",
+		"sounds": [
+			"supersentaicraft:gozyuger/ryotegasword/craft"
+		]
+	},
+	"sentai_ring_in_ryotegasword": {
+		"subtitle": "Sentai Ring inserted",
+		"sounds": [
+			"supersentaicraft:gozyuger/ryotegasword/sentai_ring_in"
+		]
+	},
+	"ryotegasword_standby": {
+		"subtitle": "RyoTegaSword standby",
+		"sounds": [
+			"supersentaicraft:gozyuger/ryotegasword/standby"
+		]
+	},
+	"tegasword_gozyuger": {
+		"subtitle": "Tega Sword Gozyuger",
+		"sounds": [
+			"supersentaicraft:gozyuger/ryotegasword/tegasword_gozyuger"
+		]
+	},
+	"gozyuger_detransform": {
+		"subtitle": "Gozyuger detransform",
+		"sounds": [
+			"supersentaicraft:gozyuger/tega_sword/detransform"
+		]
+	},
+	"calamity_ring_detransform": {
+		"subtitle": "Calamity Ring detransform",
+		"sounds": [
+			"supersentaicraft:gozyuger/calamity_ring/detransform"
+		]
+	},
+	"gavarion_trigger_craft": {
+		"subtitle": "Gavarion Trigger crafted",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/craft"
+		]
+	},
+	"gavarion_trigger_open": {
+		"subtitle": "Gavarion Trigger opens",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/open"
+		]
+	},
+	"emorgear_in_trigger": {
+		"subtitle": "Emorgear inserted",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear_in"
+		]
+	},
+	"gavarion_trigger_charge": {
+		"subtitle": "Charge",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/charge"
+		]
+	},
+	"gavarion_trigger_standby": {
+		"subtitle": "Gavarion Trigger standby",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/standby"
+		]
+	},
+	"gavarion_trigger_fire": {
+		"subtitle": "Gavarion Trigger fired",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/fire"
+		]
+	},
+	"jouchaku_infinity": {
+		"subtitle": "Jouchaku",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/jouchaku"
+		]
+	},
+	"gavarion_trigger_activate": {
+		"subtitle": "Gavan transform",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/activate"
+		]
+	},
+	"jouchaku_process_1": {
+		"subtitle": "Explaining the Gavan lore",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/jouchaku_process_1"
+		]
+	},
+	"jouchaku_process_2": {
+		"subtitle": "Explaining the Gavan lore",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/jouchaku_process_2"
+		]
+	},
+	"jouchaku_process_3": {
+		"subtitle": "This was too funny not to add lmao",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/jouchaku_process_3"
+		]
+	},
+	"emorgear_gekido_press": {
+		"subtitle": "Emorgear pressed",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/gekido_press"
+		]
+	},
+	"emorgear_gekido": {
+		"subtitle": "Gekido",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/gekido"
+		]
+	},
+	"emorgear_hisor_press": {
+		"subtitle": "Emorgear pressed",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/hisor_press"
+		]
+	},
+	"emorgear_hisor": {
+		"subtitle": "Hisor",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/hisor"
+		]
+	},
+	"emorgear_kanky_press": {
+		"subtitle": "Emorgear pressed",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/kanky_press"
+		]
+	},
+	"emorgear_kanky": {
+		"subtitle": "Kanky",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/kanky"
+		]
+	},
+	"emorgear_maikka_press": {
+		"subtitle": "Emorgear pressed",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/maikka_press"
+		]
+	},
+	"emorgear_maikka": {
+		"subtitle": "Maikka",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/maikka"
+		]
+	},
+	"emorgear_keeg_press": {
+		"subtitle": "Emorgear pressed",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/keeg_press"
+		]
+	},
+	"emorgear_keeg": {
+		"subtitle": "Keeg",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/emorgear/keeg"
+		]
+	},
+	"gavan_infinity_detransform": {
+		"subtitle": "Gavan detransform",
+		"sounds": [
+			"supersentaicraft:gavan_infinity/gavarion_trigger/detransform"
+		]
+	}
+}
