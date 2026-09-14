@@ -4,6 +4,9 @@ A Minecraft data pack adding (limited) sound functionality for the [Super Sentai
 
 Super Sentai Craft notably does not include henshin sounds for similar reasons as Kamen Rider Craft. This data pack acts as a sound system for the mod, complete with Sentai Changes, standby loops, and more.
 
+> [!NOTE]
+>  Sounds are not as readily available for Super Sentai as they are for Kamen Rider. New sounds will be added as they are obtained!
+
 ## Features
 
 - Henshin sounds and subtitles for a handful of Sentai teams and PROJECT R.E.D. characters (see [Available Series](https://github.com/LovekovGaming/Super-Sentai-Craft-Sounds/edit/main/README.md#available-series))
