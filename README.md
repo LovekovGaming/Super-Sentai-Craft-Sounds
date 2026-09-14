@@ -89,18 +89,3 @@ You can open the config menu with the following command:
 
 This will open a menu in chat where you can choose between Sound Toggles for certain features
 of the data pack, and Player Settings (not implemented yet) to tweak certain sounds to your liking.
-
-## Credits
-
-### Main Sound Providers
-- [しんじゅ。](https://www.youtube.com/@Harutya12p)
-- [ろんどろーね](https://www.youtube.com/@Henshin_sound)
-- [FG-Sounds ゆっくりFGサブ垢](https://www.youtube.com/@fg_subaka)
-- [フォーミュラ](https://www.youtube.com/@SoundRipperFormula)
-- [冬樹因幡](https://www.youtube.com/@20huyuki)
-
-### Special Thanks
-- Elmurodov Olimjon Ermat o'g'li, operator of [MVSEP](https://mvsep.com/home)
-- LiasDan, developer of Super Sentai Craft
-- The Super Sentai Craft Discord server
-- You :3
