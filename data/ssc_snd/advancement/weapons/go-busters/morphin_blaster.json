@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"mainhand": {
-				  "items": [
-					"supersentaicraft:morphin_blaster"
-				  ]
+				  "items": "supersentaicraft:morphin_blaster"
 				}
 			  }
 			}
@@ -45,9 +43,7 @@
 			"predicate": {
 			  "equipment": {
 				"offhand": {
-				  "items": [
-					"supersentaicraft:morphin_blaster"
-				  ]
+				  "items": "supersentaicraft:morphin_blaster"
 				}
 			  }
 			}

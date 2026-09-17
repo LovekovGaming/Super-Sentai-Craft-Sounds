@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:sun_vulcan_robo_head"
-			  ]
+			  "items": "supersentaicraft:sun_vulcan_robo_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:sun_vulcan_robo_torso"
-			  ]
+			  "items": "supersentaicraft:sun_vulcan_robo_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:sun_vulcan_robo_legs"
-			  ]
+			  "items": "supersentaicraft:sun_vulcan_robo_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:sun_vulcan_robo_boots"
-			  ]
+			  "items": "supersentaicraft:sun_vulcan_robo_boots"
 			}
 		  }
 		}

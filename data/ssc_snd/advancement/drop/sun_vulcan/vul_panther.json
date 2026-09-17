@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -45,24 +43,16 @@
 				  },
 			  "equipment": {
 				"head": {
-				  "items": [
-					"supersentaicraft:sun_vulcan_head"
-				  ]
+				  "items": "supersentaicraft:sun_vulcan_head"
 				},
 				"chest": {
-				  "items": [
-					"supersentaicraft:sun_vulcan_torso"
-				  ]
+				  "items": "supersentaicraft:sun_vulcan_torso"
 				},
 				"legs": {
-				  "items": [
-					"supersentaicraft:sun_vulcan_legs"
-				  ]
+				  "items": "supersentaicraft:sun_vulcan_legs"
 				},
 				"feet": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				}
 			  }
 			}

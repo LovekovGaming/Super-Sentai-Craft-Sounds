@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -45,24 +43,16 @@
 				  },
 			  "equipment": {
 				"head": {
-				  "items": [
-					"supersentaicraft:maskman_head"
-				  ]
+				  "items": "supersentaicraft:maskman_head"
 				},
 				"chest": {
-				  "items": [
-					"supersentaicraft:maskman_torso"
-				  ]
+				  "items": "supersentaicraft:maskman_torso"
 				},
 				"legs": {
-				  "items": [
-					"supersentaicraft:maskman_legs"
-				  ]
+				  "items": "supersentaicraft:maskman_legs"
 				},
 				"feet": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				}
 			  }
 			}

@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:go_busters_head"
-			  ]
+			  "items": "supersentaicraft:go_busters_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:go_busters_torso"
-			  ]
+			  "items": "supersentaicraft:go_busters_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:go_busters_legs"
-			  ]
+			  "items": "supersentaicraft:go_busters_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:hippopotamus_morphin_brace"
-			  ]
+			  "items": "supersentaicraft:hippopotamus_morphin_brace"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:go_busters_head"
-			  ]
+			  "items": "supersentaicraft:go_busters_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:go_busters_torso"
-			  ]
+			  "items": "supersentaicraft:go_busters_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:go_busters_legs"
-			  ]
+			  "items": "supersentaicraft:go_busters_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:puma_morphin_brace"
-			  ]
+			  "items": "supersentaicraft:puma_morphin_brace"
 			}
 		  }
 		}

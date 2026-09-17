@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:jakq_head"
-			  ]
+			  "items": "supersentaicraft:jakq_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:jakq_torso"
-			  ]
+			  "items": "supersentaicraft:jakq_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:jakq_legs"
-			  ]
+			  "items": "supersentaicraft:jakq_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:ace_powered_capsule"
-			  ]
+			  "items": "supersentaicraft:ace_powered_capsule"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:jakq_head"
-			  ]
+			  "items": "supersentaicraft:jakq_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:jakq_torso"
-			  ]
+			  "items": "supersentaicraft:jakq_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:jakq_legs"
-			  ]
+			  "items": "supersentaicraft:jakq_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:jack_powered_capsule"
-			  ]
+			  "items": "supersentaicraft:jack_powered_capsule"
 			}
 		  }
 		}
@@ -65,24 +49,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:jakq_head"
-			  ]
+			  "items": "supersentaicraft:jakq_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:jakq_torso"
-			  ]
+			  "items": "supersentaicraft:jakq_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:jakq_legs"
-			  ]
+			  "items": "supersentaicraft:jakq_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:queen_powered_capsule"
-			  ]
+			  "items": "supersentaicraft:queen_powered_capsule"
 			}
 		  }
 		}
@@ -94,24 +70,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:jakq_head"
-			  ]
+			  "items": "supersentaicraft:jakq_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:jakq_torso"
-			  ]
+			  "items": "supersentaicraft:jakq_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:jakq_legs"
-			  ]
+			  "items": "supersentaicraft:jakq_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:king_powered_capsule"
-			  ]
+			  "items": "supersentaicraft:king_powered_capsule"
 			}
 		  }
 		}

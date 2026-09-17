@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:maskman_head"
-			  ]
+			  "items": "supersentaicraft:maskman_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:maskman_torso"
-			  ]
+			  "items": "supersentaicraft:maskman_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:maskman_legs"
-			  ]
+			  "items": "supersentaicraft:maskman_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:red_masking_brace"
-			  ]
+			  "items": "supersentaicraft:red_masking_brace"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:maskman_head"
-			  ]
+			  "items": "supersentaicraft:maskman_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:maskman_torso"
-			  ]
+			  "items": "supersentaicraft:maskman_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:maskman_legs"
-			  ]
+			  "items": "supersentaicraft:maskman_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:black_masking_brace"
-			  ]
+			  "items": "supersentaicraft:black_masking_brace"
 			}
 		  }
 		}
@@ -65,24 +49,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:maskman_head"
-			  ]
+			  "items": "supersentaicraft:maskman_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:maskman_torso"
-			  ]
+			  "items": "supersentaicraft:maskman_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:maskman_legs"
-			  ]
+			  "items": "supersentaicraft:maskman_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:blue_masking_brace"
-			  ]
+			  "items": "supersentaicraft:blue_masking_brace"
 			}
 		  }
 		}
@@ -94,24 +70,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:maskman_head"
-			  ]
+			  "items": "supersentaicraft:maskman_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:maskman_torso"
-			  ]
+			  "items": "supersentaicraft:maskman_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:maskman_legs"
-			  ]
+			  "items": "supersentaicraft:maskman_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:yellow_masking_brace"
-			  ]
+			  "items": "supersentaicraft:yellow_masking_brace"
 			}
 		  }
 		}
@@ -123,24 +91,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"supersentaicraft:maskman_head"
-			  ]
+			  "items": "supersentaicraft:maskman_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:maskman_torso"
-			  ]
+			  "items": "supersentaicraft:maskman_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:maskman_legs"
-			  ]
+			  "items": "supersentaicraft:maskman_legs"
 			},
 			"feet": {
-			  "items": [
-				"supersentaicraft:pink_masking_brace"
-			  ]
+			  "items": "supersentaicraft:pink_masking_brace"
 			}
 		  }
 		}

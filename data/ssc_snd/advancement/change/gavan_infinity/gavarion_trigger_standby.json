@@ -37,19 +37,13 @@
 				},
 				"equipment": {
 				  "head": {
-					"items": [
-					  "supersentaicraft:gavan_infinity_head"
-					]
+					"items": "supersentaicraft:gavan_infinity_head"
 				  },
 				  "chest": {
-					"items": [
-					  "supersentaicraft:gavan_infinity_torso"
-					]
+					"items": "supersentaicraft:gavan_infinity_torso"
 				  },
 				  "legs": {
-					"items": [
-					  "supersentaicraft:gavan_infinity_legs"
-					]
+					"items": "supersentaicraft:gavan_infinity_legs"
 				  }
 				}
 			  }

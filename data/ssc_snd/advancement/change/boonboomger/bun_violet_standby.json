@@ -22,19 +22,13 @@
 				},
 				"equipment": {
 				  "head": {
-					"items": [
-					  "supersentaicraft:boonboomger_head"
-					]
+					"items": "supersentaicraft:boonboomger_head"
 				  },
 				  "chest": {
-					"items": [
-					  "supersentaicraft:boonboomger_torso"
-					]
+					"items": "supersentaicraft:boonboomger_torso"
 				  },
 				  "legs": {
-					"items": [
-					  "supersentaicraft:boonboomger_legs"
-					]
+					"items": "supersentaicraft:boonboomger_legs"
 				  }
 				}
 			  }

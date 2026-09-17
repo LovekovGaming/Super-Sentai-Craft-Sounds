@@ -11,29 +11,19 @@
 			"predicate": {
 			  "equipment": {
 				"mainhand": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				},
 			"head": {
-			  "items": [
-				"supersentaicraft:jakq_head"
-			  ]
+			  "items": "supersentaicraft:jakq_head"
 			},
 			"chest": {
-			  "items": [
-				"supersentaicraft:jakq_torso"
-			  ]
+			  "items": "supersentaicraft:jakq_torso"
 			},
 			"legs": {
-			  "items": [
-				"supersentaicraft:jakq_legs"
-			  ]
+			  "items": "supersentaicraft:jakq_legs"
 			},
 				"feet": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				}
 			  }
 			}

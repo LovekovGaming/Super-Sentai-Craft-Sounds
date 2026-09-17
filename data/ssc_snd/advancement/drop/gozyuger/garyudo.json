@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,19 +38,13 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"supersentaicraft:gozyuger_head"
-				  ]
+				  "items": "supersentaicraft:gozyuger_head"
 				},
 				"chest": {
-				  "items": [
-					"supersentaicraft:gozyuger_torso"
-				  ]
+				  "items": "supersentaicraft:gozyuger_torso"
 				},
 				"legs": {
-				  "items": [
-					"supersentaicraft:gozyuger_legs"
-				  ]
+				  "items": "supersentaicraft:gozyuger_legs"
 				}
 			  }
 			}
@@ -66,9 +58,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}

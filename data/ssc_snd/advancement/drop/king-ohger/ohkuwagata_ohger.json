@@ -11,24 +11,16 @@
 			"predicate": {
 			  "equipment": {
 				"mainhand": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				},
 				"head": {
-				  "items": [
-					"supersentaicraft:king_ohger_head"
-				  ]
+				  "items": "supersentaicraft:king_ohger_head"
 				},
 				"chest": {
-				  "items": [
-					"supersentaicraft:king_ohger_torso"
-				  ]
+				  "items": "supersentaicraft:king_ohger_torso"
 				},
 				"legs": {
-				  "items": [
-					"supersentaicraft:king_ohger_legs"
-				  ]
+				  "items": "supersentaicraft:king_ohger_legs"
 				}
 			  }
 			}

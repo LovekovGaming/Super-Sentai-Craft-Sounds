@@ -22,19 +22,13 @@
 				},
 				"equipment": {
 				  "head": {
-					"items": [
-					  "supersentaicraft:gozyuger_head"
-					]
+					"items": "supersentaicraft:gozyuger_head"
 				  },
 				  "chest": {
-					"items": [
-					  "supersentaicraft:gozyuger_torso"
-					]
+					"items": "supersentaicraft:gozyuger_torso"
 				  },
 				  "legs": {
-					"items": [
-					  "supersentaicraft:gozyuger_legs"
-					]
+					"items": "supersentaicraft:gozyuger_legs"
 				  }
 				}
 			  }

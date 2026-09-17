@@ -11,24 +11,16 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"supersentaicraft:boukenger_head"
-				  ]
+				  "items": "supersentaicraft:boukenger_head"
 				},
 				"chest": {
-				  "items": [
-					"supersentaicraft:boukenger_torso"
-				  ]
+				  "items": "supersentaicraft:boukenger_torso"
 				},
 				"legs": {
-				  "items": [
-					"supersentaicraft:boukenger_legs"
-				  ]
+				  "items": "supersentaicraft:boukenger_legs"
 				},
 				"feet": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				}
 			  }
 			}

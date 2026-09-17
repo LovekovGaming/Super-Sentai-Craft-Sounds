@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,19 +38,13 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"supersentaicraft:lupat_head"
-				  ]
+				  "items": "supersentaicraft:lupat_head"
 				},
 				"chest": {
-				  "items": [
-					"supersentaicraft:lupat_torso"
-				  ]
+				  "items": "supersentaicraft:lupat_torso"
 				},
 				"legs": {
-				  "items": [
-					"supersentaicraft:lupat_legs"
-				  ]
+				  "items": "supersentaicraft:lupat_legs"
 				}
 			  }
 			}
@@ -66,9 +58,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}

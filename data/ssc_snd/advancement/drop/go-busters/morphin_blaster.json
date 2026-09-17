@@ -11,24 +11,16 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"supersentaicraft:go_busters_head"
-				  ]
+				  "items": "supersentaicraft:go_busters_head"
 				},
 				"chest": {
-				  "items": [
-					"supersentaicraft:go_busters_torso"
-				  ]
+				  "items": "supersentaicraft:go_busters_torso"
 				},
 				"legs": {
-				  "items": [
-					"supersentaicraft:go_busters_legs"
-				  ]
+				  "items": "supersentaicraft:go_busters_legs"
 				},
 				"feet": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				}
 			  }
 			}
