@@ -1,3 +1,4 @@
+$execute if items entity @s[gamemode=!creative] $(slot) *[!minecraft:enchantments={"minecraft:binding_curse":0}] run return 0
 $execute unless items entity @s armor.feet $(item) if items entity @s armor.feet * run summon minecraft:item ~ ~1 ~ {Age:1s,Tags:["equipped-armor.feet"],Item:{id:"minecraft:egg",Count:1b}}
 $execute unless items entity @s armor.feet $(item) if items entity @s armor.feet * run item replace entity @n[type=item,distance=..5,tag=equipped-armor.feet] contents from entity @s armor.feet
 $execute unless items entity @s armor.feet $(item) if items entity @s armor.feet * run item replace entity @s armor.feet with minecraft:air
