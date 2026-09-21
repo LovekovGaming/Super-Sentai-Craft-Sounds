@@ -6,9 +6,9 @@ execute if score @s ssc.change-stage matches 1.. as @n[type=item,distance=..5,pr
 execute unless items entity @s container.* supersentaicraft:goode_burn unless items entity @s container.* #ssc_snd:item_alias/tega_nagure unless items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:goode_burn unless items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:item_alias/tega_nagure as @n[type=item,distance=..5,tag=valid] run tag @s remove valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s ssc.change-stage 1
 
-execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:gozyu_polar_ring run playsound supersentaicraft:sentai_ring_in_goodeburn player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:gozyu_polar_ring run function ssc_snd:play_global {name:"supersentaicraft:sentai_ring_in_goodeburn",scope:"change_snd"}
 execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:gozyu_polar_ring run advancement grant @s only ssc_snd:change/gozyuger/gozyu_polar_standby 1
-execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:item_alias/tega_nagure_ring run playsound supersentaicraft:sentai_ring_in_teganagure player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:item_alias/tega_nagure_ring run function ssc_snd:play_global {name:"supersentaicraft:sentai_ring_in_teganagure",scope:"change_snd"}
 execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:item_alias/tega_nagure_ring run advancement grant @s only ssc_snd:change/gozyuger/gozyu_polar_god_standby 1
 
 execute if score @s ssc.change-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from ssc_snd:change/gozyuger/standby_root

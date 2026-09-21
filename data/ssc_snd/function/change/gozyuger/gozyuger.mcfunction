@@ -23,25 +23,25 @@ execute unless score @s ssc.form1n matches 40..41 if items entity @s armor.feet 
 execute unless score @s ssc.form1n matches 40..41 if items entity @s armor.feet supersentaicraft:tyranno_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_tyranno_seq 1
 execute unless score @s ssc.form1n matches 40..41 if items entity @s armor.feet supersentaicraft:eagle_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_eagle_seq 1
 execute unless score @s ssc.form1n matches 40..41 if items entity @s armor.feet supersentaicraft:unicorn_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_unicorn_seq 1
-execute unless score @s ssc.form1n matches 40..41 unless score @s ssc.form1n matches 51.. run playsound supersentaicraft:gozyuger_engage player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute unless score @s ssc.form1n matches 40..41 unless score @s ssc.form1n matches 51.. run function ssc_snd:play_global {name:"supersentaicraft:gozyuger_engage",scope:"change_snd"}
 execute unless score @s ssc.form1n matches 40..41 run scoreboard players set @s ssc.seq1 0
 execute if score @s ssc.form1n matches 40 unless score Form_Difference ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:wolf_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_wolf_seq 1
 execute if score @s ssc.form1n matches 40 unless score Form_Difference ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:leon_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_leon_seq 1
 execute if score @s ssc.form1n matches 40 unless score Form_Difference ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:tyranno_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_tyranno_seq 1
 execute if score @s ssc.form1n matches 40 unless score Form_Difference ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:eagle_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_eagle_seq 1
 execute if score @s ssc.form1n matches 40 unless score Form_Difference ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:unicorn_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_unicorn_seq 1
-execute if score @s ssc.form1n matches 40 unless score Form_Difference ssc.form1n matches 1 run playsound supersentaicraft:gozyuger_engage player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 40 unless score Form_Difference ssc.form1n matches 1 run function ssc_snd:play_global {name:"supersentaicraft:gozyuger_engage",scope:"change_snd"}
 execute if score @s ssc.form1n matches 40 unless score Form_Difference ssc.form1n matches 1 run scoreboard players set @s ssc.seq1 0
 execute if score @s ssc.form1n matches 41 unless score Form_Difference ssc.form1n matches -1 if items entity @s armor.feet supersentaicraft:wolf_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_wolf_seq 1
 execute if score @s ssc.form1n matches 41 unless score Form_Difference ssc.form1n matches -1 if items entity @s armor.feet supersentaicraft:leon_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_leon_seq 1
 execute if score @s ssc.form1n matches 41 unless score Form_Difference ssc.form1n matches -1 if items entity @s armor.feet supersentaicraft:tyranno_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_tyranno_seq 1
 execute if score @s ssc.form1n matches 41 unless score Form_Difference ssc.form1n matches -1 if items entity @s armor.feet supersentaicraft:eagle_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_eagle_seq 1
 execute if score @s ssc.form1n matches 41 unless score Form_Difference ssc.form1n matches -1 if items entity @s armor.feet supersentaicraft:unicorn_tega_sword run advancement grant @s only ssc_snd:change/gozyuger/gozyu_unicorn_seq 1
-execute if score @s ssc.form1n matches 41 unless score Form_Difference ssc.form1n matches -1 run playsound supersentaicraft:gozyuger_engage player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 41 unless score Form_Difference ssc.form1n matches -1 run function ssc_snd:play_global {name:"supersentaicraft:gozyuger_engage",scope:"change_snd"}
 execute if score @s ssc.form1n matches 41 unless score Form_Difference ssc.form1n matches -1 run scoreboard players set @s ssc.seq1 0
-execute if score @s ssc.form1n matches 41 if score Form_Difference ssc.form1n matches -1 run playsound supersentaicraft:zyuoh_gorilla_gozyuger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form1n matches 51 run playsound supersentaicraft:sentai_ring_in player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form1n matches 52 run playsound supersentaicraft:tegasword_gozyuger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 41 if score Form_Difference ssc.form1n matches -1 run function ssc_snd:play_global {name:"supersentaicraft:zyuoh_gorilla_gozyuger",scope:"change_snd"}
+execute if score @s ssc.form1n matches 51 run function ssc_snd:play_global {name:"supersentaicraft:sentai_ring_in",scope:"change_snd"}
+execute if score @s ssc.form1n matches 52 run function ssc_snd:play_global {name:"supersentaicraft:tegasword_gozyuger",scope:"change_snd"}
 
 advancement revoke @s only ssc_snd:change/common/reset
 advancement revoke @s from ssc_snd:change/common/detransform_root

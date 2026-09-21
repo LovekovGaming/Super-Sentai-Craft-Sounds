@@ -10,8 +10,8 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentai
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:bun_007_110
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:champion_change
 
-execute if score @s ssc.form1n matches 0 run playsound supersentaicraft:boonboom_change_booster player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:bun_007_110 player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form1n matches 2 run playsound supersentaicraft:champion_change player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 0 run function ssc_snd:play_global {name:"supersentaicraft:boonboom_change_booster",scope:"change_snd"}
+execute if score @s ssc.form1n matches 1 run function ssc_snd:play_global {name:"supersentaicraft:bun_007_110",scope:"change_snd"}
+execute if score @s ssc.form1n matches 2 run function ssc_snd:play_global {name:"supersentaicraft:champion_change",scope:"change_snd"}
 
 advancement revoke @s only ssc_snd:change/common/reset

@@ -3,7 +3,7 @@ execute as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items enti
 execute unless items entity @s container.* supersentaicraft:ohger_calibur_zero unless items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:ohger_calibur_zero as @n[type=item,distance=..5,tag=valid] run tag @s remove valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s ssc.change-stage 1
 
-execute if score @s ssc.change-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound supersentaicraft:ohgercalibur_zero_start player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.change-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function ssc_snd:play_global {name:"supersentaicraft:ohgercalibur_zero_start",scope:"change_snd"}
 execute if score @s ssc.change-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only ssc_snd:change/king-ohger/ohgercalibur_zero_standby 1
 
 execute if score @s ssc.change-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from ssc_snd:change/king-ohger/standby_root

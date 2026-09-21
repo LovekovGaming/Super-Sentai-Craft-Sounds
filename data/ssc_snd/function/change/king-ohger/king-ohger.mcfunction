@@ -13,16 +13,16 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentai
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:king_kuwagata_ohger
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:ryouga_issen
 
-execute if score @s ssc.form1n matches 0 run playsound supersentaicraft:you_are_the_king player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 0 run function ssc_snd:play_global {name:"supersentaicraft:you_are_the_king",scope:"change_snd"}
 execute unless score @s ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:kuwagata_ohger_calibur run advancement grant @s only ssc_snd:change/king-ohger/kuwagata_ohger_seq 1
 execute unless score @s ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:tonbo_ohger_calibur run advancement grant @s only ssc_snd:change/king-ohger/tonbo_ohger_seq 1
 execute unless score @s ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:kamakiri_ohger_calibur run advancement grant @s only ssc_snd:change/king-ohger/kamakiri_ohger_seq 1
 execute unless score @s ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:papillon_ohger_calibur run advancement grant @s only ssc_snd:change/king-ohger/papillon_ohger_seq 1
 execute unless score @s ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:hachi_ohger_calibur run advancement grant @s only ssc_snd:change/king-ohger/hachi_ohger_seq 1
-execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:king_kuwagata_ohger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 1 run function ssc_snd:play_global {name:"supersentaicraft:king_kuwagata_ohger",scope:"change_snd"}
 execute if score @s ssc.form1n matches 1 run advancement grant @s only ssc_snd:change/king-ohger/kuwagata_ohger_seq 1
-execute if score @s ssc.form1n matches 2.. run playsound minecraft:entity.lightning_bolt.impact player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3 0.8
-execute if score @s ssc.form1n matches 2.. run playsound minecraft:entity.lightning_bolt.thunder player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 2.. run function ssc_snd:play_global {name:"minecraft:entity.lightning_bolt.impact",scope:"change_snd"} 0.8
+execute if score @s ssc.form1n matches 2.. run function ssc_snd:play_global {name:"minecraft:entity.lightning_bolt.thunder",scope:"change_snd"}
 
 advancement revoke @s only ssc_snd:change/common/reset
 advancement revoke @s from ssc_snd:change/common/detransform_root

@@ -1,7 +1,7 @@
 advancement revoke @s only ssc_snd:change/gozyuger/gozyu_leon_seq 2
 scoreboard players add @s ssc.seq1 1
 
-execute if score @s ssc.seq1 matches 26 if score @s ssc.form1n matches 0 run playsound supersentaicraft:gozyu_leon player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.seq1 matches 26 if score @s ssc.form1n matches 0 run function ssc_snd:play_global {name:"supersentaicraft:gozyu_leon",scope:"change_snd"}
 execute if score @s ssc.seq1 matches 96 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_leon","color":"blue"}
 execute if score @s ssc.seq1 matches 136 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_leon","color":"blue"}
 execute if score @s ssc.seq1 matches 170 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_leon","color":"gold"}

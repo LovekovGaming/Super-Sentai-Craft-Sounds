@@ -5,12 +5,12 @@ execute as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items enti
 execute as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:king_powered_capsule run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s ssc.change-stage 1
 
-execute if score @s ssc.change-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound supersentaicraft:powered_capsule_enter player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:ace_powered_capsule run playsound supersentaicraft:powered_capsule_plug_spade_dia player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:jack_powered_capsule run playsound supersentaicraft:powered_capsule_plug_spade_dia player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:queen_powered_capsule run playsound supersentaicraft:powered_capsule_plug_heart_clover player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:king_powered_capsule run playsound supersentaicraft:powered_capsule_plug_heart_clover player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.change-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run playsound supersentaicraft:powered_capsule_charge player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.change-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function ssc_snd:play_global {name:"supersentaicraft:powered_capsule_enter",scope:"change_snd"}
+execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:ace_powered_capsule run function ssc_snd:play_global {name:"supersentaicraft:powered_capsule_plug_spade_dia",scope:"change_snd"}
+execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:jack_powered_capsule run function ssc_snd:play_global {name:"supersentaicraft:powered_capsule_plug_spade_dia",scope:"change_snd"}
+execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:queen_powered_capsule run function ssc_snd:play_global {name:"supersentaicraft:powered_capsule_plug_heart_clover",scope:"change_snd"}
+execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:king_powered_capsule run function ssc_snd:play_global {name:"supersentaicraft:powered_capsule_plug_heart_clover",scope:"change_snd"}
+execute if score @s ssc.change-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run function ssc_snd:play_global {name:"supersentaicraft:powered_capsule_charge",scope:"change_snd"}
 
 execute if score @s ssc.change-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from ssc_snd:change/jakq/root
 execute if score @s ssc.change-stage matches 3.. if entity @n[type=item,distance=..5,tag=valid] run scoreboard players reset @s ssc.change-stage

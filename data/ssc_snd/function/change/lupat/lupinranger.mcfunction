@@ -21,13 +21,13 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentai
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:x_train_new_challenger
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:super_lupinranger
 
-execute if score @s ssc.form1n matches 0 if score @s ssc.form2n matches 0 run playsound supersentaicraft:lupinranger_change player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:lupin_tricolor player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form1n matches 2 run playsound supersentaicraft:super_lupinranger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form2n matches 1 run playsound supersentaicraft:scissors_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form2n matches 2 run playsound supersentaicraft:magic_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form2n matches 3 run playsound supersentaicraft:crane_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form2n matches 4 run playsound supersentaicraft:splash_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
-execute if score @s ssc.form2n matches 5 run playsound supersentaicraft:x_train_new_challenger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 0 if score @s ssc.form2n matches 0 run function ssc_snd:play_global {name:"supersentaicraft:lupinranger_change",scope:"change_snd"}
+execute if score @s ssc.form1n matches 1 run function ssc_snd:play_global {name:"supersentaicraft:lupin_tricolor",scope:"change_snd"}
+execute if score @s ssc.form1n matches 2 run function ssc_snd:play_global {name:"supersentaicraft:super_lupinranger",scope:"change_snd"}
+execute if score @s ssc.form2n matches 1 run function ssc_snd:play_global {name:"supersentaicraft:scissors_boost",scope:"change_snd"}
+execute if score @s ssc.form2n matches 2 run function ssc_snd:play_global {name:"supersentaicraft:magic_boost",scope:"change_snd"}
+execute if score @s ssc.form2n matches 3 run function ssc_snd:play_global {name:"supersentaicraft:crane_boost",scope:"change_snd"}
+execute if score @s ssc.form2n matches 4 run function ssc_snd:play_global {name:"supersentaicraft:splash_boost",scope:"change_snd"}
+execute if score @s ssc.form2n matches 5 run function ssc_snd:play_global {name:"supersentaicraft:x_train_new_challenger",scope:"change_snd"}
 
 advancement revoke @s only ssc_snd:change/common/reset
