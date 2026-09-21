@@ -21,7 +21,8 @@ execute unless score @s ssc.form1n matches 1 if items entity @s armor.feet super
 execute unless score @s ssc.form1n matches 1 if items entity @s armor.feet supersentaicraft:hachi_ohger_calibur run advancement grant @s only ssc_snd:change/king-ohger/hachi_ohger_seq 1
 execute if score @s ssc.form1n matches 1 run function ssc_snd:play_global {name:"supersentaicraft:king_kuwagata_ohger",scope:"change_snd"}
 execute if score @s ssc.form1n matches 1 run advancement grant @s only ssc_snd:change/king-ohger/kuwagata_ohger_seq 1
-execute if score @s ssc.form1n matches 2.. run function ssc_snd:play_global {name:"minecraft:entity.lightning_bolt.impact",scope:"change_snd"} 0.8
+execute if score @s ssc.form1n matches 2.. run playsound minecraft:entity.lightning_bolt.impact player @s[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 99 0.8
+execute if score @s ssc.form1n matches 2.. run playsound minecraft:entity.lightning_bolt.impact player @a[scores={ssc.configs.change_snd=1},distance=0.1..] ~ ~1 ~ 3 0.8
 execute if score @s ssc.form1n matches 2.. run function ssc_snd:play_global {name:"minecraft:entity.lightning_bolt.thunder",scope:"change_snd"}
 
 advancement revoke @s only ssc_snd:change/common/reset

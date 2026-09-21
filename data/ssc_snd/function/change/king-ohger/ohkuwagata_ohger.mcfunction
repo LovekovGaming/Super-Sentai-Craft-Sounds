@@ -12,7 +12,8 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentai
 
 execute if score @s ssc.form1n matches 0 run function ssc_snd:play_global {name:"supersentaicraft:lord_of_the_shugod",scope:"change_snd"}
 execute if score @s ssc.form1n matches 1 run function ssc_snd:play_global {name:"supersentaicraft:king_ohkuwagata_ohger",scope:"change_snd"}
-execute if score @s ssc.form1n matches 2.. run function ssc_snd:play_global {name:"minecraft:entity.lightning_bolt.impact",scope:"change_snd"} 0.8
+execute if score @s ssc.form1n matches 2.. run playsound minecraft:entity.lightning_bolt.impact player @s[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 99 0.8
+execute if score @s ssc.form1n matches 2.. run playsound minecraft:entity.lightning_bolt.impact player @a[scores={ssc.configs.change_snd=1},distance=0.1..] ~ ~1 ~ 3 0.8
 execute if score @s ssc.form1n matches 2.. run function ssc_snd:play_global {name:"minecraft:entity.lightning_bolt.thunder",scope:"change_snd"}
 
 advancement revoke @s only ssc_snd:change/common/reset
