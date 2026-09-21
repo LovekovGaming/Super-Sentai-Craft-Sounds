@@ -10,8 +10,8 @@ scoreboard players reset @s ssc.seq1
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:garyudo
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:tega_june_garyudo
 
-execute if score @s ssc.form1n matches 0 run playsound supersentaicraft:garyudo player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:tega_june_garyudo player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.form1n matches 0 run playsound supersentaicraft:garyudo player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:tega_june_garyudo player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 execute if score @s ssc.form1n matches 1 run scoreboard players set @s ssc.seq1 96
 
 advancement revoke @s only ssc_snd:change/common/reset

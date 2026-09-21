@@ -25,14 +25,14 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentai
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:x_train_new_challenger
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:super_patranger
 
-execute if score @s ssc.form1n matches 0 if score @s ssc.form2n matches 0 run playsound supersentaicraft:patranger_change player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:patren_ugou player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.form1n matches 0 if score @s ssc.form2n matches 0 run playsound supersentaicraft:patranger_change player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:patren_ugou player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 execute if score @s ssc.form1n matches 1 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.lupat.ichidanketsu","color":"red"}
-execute if score @s ssc.form2n matches 1 run playsound supersentaicraft:scissors_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form2n matches 2 run playsound supersentaicraft:magic_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form2n matches 3 run playsound supersentaicraft:crane_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form2n matches 4 run playsound supersentaicraft:splash_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form2n matches 5 run playsound supersentaicraft:x_train_new_challenger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form2n matches 6 run playsound supersentaicraft:super_patranger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.form2n matches 1 run playsound supersentaicraft:scissors_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form2n matches 2 run playsound supersentaicraft:magic_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form2n matches 3 run playsound supersentaicraft:crane_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form2n matches 4 run playsound supersentaicraft:splash_boost player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form2n matches 5 run playsound supersentaicraft:x_train_new_challenger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form2n matches 6 run playsound supersentaicraft:super_patranger player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s only ssc_snd:change/common/reset

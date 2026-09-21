@@ -15,9 +15,9 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentai
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:super_patren_x
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:super_lupin_x
 
-execute if score @s ssc.form1n matches 0 run playsound supersentaicraft:lupin_x player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:patren_x player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form1n matches 2 run playsound supersentaicraft:super_patren_x player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.form1n matches 3 run playsound supersentaicraft:super_lupin_x player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.form1n matches 0 run playsound supersentaicraft:lupin_x player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 1 run playsound supersentaicraft:patren_x player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 2 run playsound supersentaicraft:super_patren_x player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.form1n matches 3 run playsound supersentaicraft:super_lupin_x player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s only ssc_snd:change/common/reset

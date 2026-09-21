@@ -3,6 +3,6 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player minecraft:i
 advancement grant @s only ssc_snd:change/boukenger/zubaan_seq 1
 scoreboard players reset @s ssc.seq1
 
-playsound supersentaicraft:zubaan_transform player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+playsound supersentaicraft:zubaan_transform player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s only ssc_snd:change/common/reset

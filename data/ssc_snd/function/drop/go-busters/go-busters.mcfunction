@@ -5,15 +5,15 @@ execute as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items enti
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s ssc.change-stage 1
 
 execute if score @s ssc.change-stage matches 1 unless items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:custom_visor run scoreboard players add @s ssc.change-stage 1
-execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:custom_visor run playsound supersentaicraft:custom_visor_set player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:custom_visor run playsound supersentaicraft:custom_visor_set player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:custom_visor run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.go-busters.set","color":"red"}
 execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:changers/morphin_brace_doubutsu run scoreboard players add @s ssc.change-stage 1
-execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:changers/morphin_brace run playsound supersentaicraft:morphin_brace_dial_turn player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
-execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:custom_visor run playsound supersentaicraft:custom_visor_activate player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:changers/morphin_brace run playsound supersentaicraft:morphin_brace_dial_turn player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
+execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:custom_visor run playsound supersentaicraft:custom_visor_activate player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 execute if score @s ssc.change-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:custom_visor run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.go-busters.are_you_ready","color":"red"}
 execute if score @s ssc.change-stage matches 3 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:changers/morphin_brace run scoreboard players set @s ssc.seq1 25
 execute if score @s ssc.change-stage matches 3 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:changers/morphin_brace_doubutsu run scoreboard players set @s ssc.seq1 50
-execute if score @s ssc.change-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run playsound supersentaicraft:morphin_brace_open player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.change-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run playsound supersentaicraft:morphin_brace_open player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 execute if score @s ssc.change-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only ssc_snd:change/go-busters/morphin_brace_standby 1
 
 execute if score @s ssc.change-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from ssc_snd:change/go-busters/standby_root

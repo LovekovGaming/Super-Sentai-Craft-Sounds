@@ -5,5 +5,5 @@ scoreboard players reset @s ssc.change-stage
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:morphin_brace_standby
 scoreboard players reset @s ssc.seq1
 
-playsound supersentaicraft:lets_morphin player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+playsound supersentaicraft:lets_morphin player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 advancement revoke @s only ssc_snd:change/common/reset

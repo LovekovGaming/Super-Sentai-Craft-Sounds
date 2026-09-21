@@ -12,7 +12,7 @@ scoreboard players reset @s ssc.seq1
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:gavarion_trigger_fire
 execute unless predicate ssc_core:sneaking unless entity @a[advancements={ssc_snd:flags/gavan_infinity/temporary={jouchaku_process=true}},distance=..20] run advancement grant @s only ssc_snd:flags/gavan_infinity/temporary jouchaku_process
 
-playsound supersentaicraft:gavarion_trigger_fire player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+playsound supersentaicraft:gavarion_trigger_fire player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s only ssc_snd:change/common/reset
 advancement revoke @s from ssc_snd:change/common/detransform_root

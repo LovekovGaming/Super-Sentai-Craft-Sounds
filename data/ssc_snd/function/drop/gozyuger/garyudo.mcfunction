@@ -5,14 +5,14 @@ execute if score @s ssc.change-stage matches 1.. as @n[type=item,distance=..5,pr
 execute unless items entity @s container.* supersentaicraft:tega_june unless items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:tega_june as @n[type=item,distance=..5,tag=valid] run tag @s remove valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s ssc.change-stage 1
 
-execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:tega_june_ring run playsound supersentaicraft:sentai_ring_in_june player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:tega_june_ring run playsound supersentaicraft:sentai_ring_in_june player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:tega_june_ring run advancement grant @s only ssc_snd:change/gozyuger/garyudo_standby 1
 execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:tega_june_ring unless predicate ssc_core:sneaking run advancement grant @s only ssc_snd:change/gozyuger/garyudo_standby cock
 execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents supersentaicraft:tega_june_ring unless predicate ssc_core:sneaking run scoreboard players set @s ssc.change-stage 5
-execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:item_alias/tega_june_ring_garyudo run playsound supersentaicraft:tega_june_garyudo_start player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:item_alias/tega_june_ring_garyudo run playsound supersentaicraft:tega_june_garyudo_start player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:item_alias/tega_june_ring_garyudo run advancement grant @s only ssc_snd:change/gozyuger/tega_june_garyudo_standby 1
 execute if score @s ssc.change-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #ssc_snd:item_alias/tega_june_ring_garyudo run scoreboard players set @s ssc.change-stage 5
-execute if score @s[advancements={ssc_snd:change/gozyuger/garyudo_standby={cock=false,1=true}}] ssc.change-stage matches 2..5 if entity @n[type=item,distance=..5,tag=valid] run playsound supersentaicraft:tega_june_cock player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~
+execute if score @s[advancements={ssc_snd:change/gozyuger/garyudo_standby={cock=false,1=true}}] ssc.change-stage matches 2..5 if entity @n[type=item,distance=..5,tag=valid] run playsound supersentaicraft:tega_june_cock player @a[scores={ssc.configs.change_snd=1}] ~ ~1 ~ 3
 
 execute if score @s ssc.change-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from ssc_snd:change/gozyuger/standby_root
 execute if score @s ssc.change-stage matches 6 unless items entity @s armor.feet supersentaicraft:garyudo_tega_june if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from ssc_snd:change/gozyuger/root
