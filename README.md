@@ -13,7 +13,7 @@ Super Sentai Craft notably does not include henshin sounds for similar reasons a
 - Standby loop activation by dropping transformation items
 - Automatic changer armor equipping via the drop system
 - Compatible with both release and dev builds of Super Sentai Craft
-- Multiplayer compatible (all players must be using the resource pack)
+- Multiplayer compatible
 
 ## Prerequisites
 
