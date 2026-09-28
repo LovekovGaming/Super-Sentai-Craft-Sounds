@@ -1,0 +1,29 @@
+{
+  "parent": "ssc_snd:change/goseiger/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "ssc_snd:change/goseiger/gosei_card_detect": {
+					"2": true
+				  }
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/goseiger/gosei_card_detect_shot"
+  }
+}

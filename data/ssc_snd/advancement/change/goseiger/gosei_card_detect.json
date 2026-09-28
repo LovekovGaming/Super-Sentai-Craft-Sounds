@@ -1,0 +1,139 @@
+{
+  "parent": "ssc_snd:change/goseiger/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:reference",
+			"name": "ssc_core:heisei/goseiger_armor"
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": "supersentaicraft:red_tensouder"
+				},
+				"mainhand": {
+				  "items": "supersentaicraft:skick_sword_card"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:reference",
+			"name": "ssc_core:heisei/goseiger_armor"
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": "supersentaicraft:pink_tensouder"
+				},
+				"mainhand": {
+				  "items": "supersentaicraft:skick_shot_card"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:reference",
+			"name": "ssc_core:heisei/goseiger_armor"
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": "supersentaicraft:black_tensouder"
+				},
+				"mainhand": {
+				  "items": "supersentaicraft:landick_ax_card"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"4": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:reference",
+			"name": "ssc_core:heisei/goseiger_armor"
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": "supersentaicraft:yellow_tensouder"
+				},
+				"mainhand": {
+				  "items": "supersentaicraft:landick_claw_card"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"5": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:reference",
+			"name": "ssc_core:heisei/goseiger_armor"
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": "supersentaicraft:blue_tensouder"
+				},
+				"mainhand": {
+				  "items": "supersentaicraft:seaick_bowgun_card"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3",
+	  "4",
+	  "5"
+	]
+  ]
+}

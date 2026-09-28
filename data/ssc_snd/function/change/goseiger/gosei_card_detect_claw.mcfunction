@@ -1,0 +1,3 @@
+advancement revoke @s only ssc_snd:change/goseiger/gosei_card_detect_claw
+execute if items entity @n[type=item,predicate=ssc_snd:valid_item,distance=..2] contents supersentaicraft:landick_claw unless data entity @n[type=item,predicate=ssc_snd:valid_item,distance=..2] Thrower run function ssc_snd:play_global {name:"supersentaicraft:summon_landick_claw",scope:"change_snd"}
+execute if items entity @n[type=item,predicate=ssc_snd:valid_item,distance=..2] contents supersentaicraft:landick_claw unless data entity @n[type=item,predicate=ssc_snd:valid_item,distance=..2] Thrower run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.goseiger.summon_landick_claw","color":"yellow"}

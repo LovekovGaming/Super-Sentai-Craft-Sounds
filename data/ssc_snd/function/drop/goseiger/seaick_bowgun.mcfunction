@@ -1,0 +1,4 @@
+execute if data entity @n[type=item,distance=..5,predicate=ssc_snd:valid_item] Thrower if items entity @n[type=item,distance=..5,predicate=ssc_snd:valid_item] contents supersentaicraft:seaick_bowgun_card run function ssc_snd:play_global {name:"supersentaicraft:tensouder_gotcha",scope:"change_snd"}
+execute if data entity @n[type=item,distance=..5,predicate=ssc_snd:valid_item] Thrower if items entity @n[type=item,distance=..5,predicate=ssc_snd:valid_item] contents supersentaicraft:seaick_bowgun_card run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.goseiger.gotcha","color":"yellow"}
+execute as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:seaick_bowgun_card run function ssc_snd:drop/common/return_item
+advancement revoke @s from ssc_snd:drop/goseiger/root

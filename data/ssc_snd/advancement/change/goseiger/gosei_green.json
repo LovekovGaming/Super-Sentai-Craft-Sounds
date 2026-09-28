@@ -1,0 +1,29 @@
+{
+  "parent": "ssc_snd:change/goseiger/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": "supersentaicraft:goseiger_head"
+			},
+			"chest": {
+			  "items": "supersentaicraft:goseiger_torso"
+			},
+			"legs": {
+			  "items": "supersentaicraft:goseiger_legs"
+			},
+			"feet": {
+			  "items": "supersentaicraft:green_tensouder"
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:change/goseiger/goseiger"
+  }
+}

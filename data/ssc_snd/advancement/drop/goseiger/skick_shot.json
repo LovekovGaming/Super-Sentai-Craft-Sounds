@@ -1,0 +1,35 @@
+{
+  "parent": "ssc_snd:drop/goseiger/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": "supersentaicraft:goseiger_head"
+				},
+				"chest": {
+				  "items": "supersentaicraft:goseiger_torso"
+				},
+				"legs": {
+				  "items": "supersentaicraft:goseiger_legs"
+				},
+				"feet": {
+				  "items": "supersentaicraft:pink_tensouder"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "ssc_snd:drop/goseiger/skick_shot"
+  }
+}

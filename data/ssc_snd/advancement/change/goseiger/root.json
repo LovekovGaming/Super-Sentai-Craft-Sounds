@@ -1,0 +1,8 @@
+{
+  "parent": "ssc_snd:change/common/root",
+  "criteria": {
+	"example": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}
