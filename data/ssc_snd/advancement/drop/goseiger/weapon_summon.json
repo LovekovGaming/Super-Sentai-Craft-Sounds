@@ -20,7 +20,21 @@
 				  "items": "supersentaicraft:goseiger_legs"
 				},
 				"feet": {
-				  "items": "supersentaicraft:yellow_tensouder"
+				  "items": "#ssc_snd:changers/tensouder"
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "feet": {
+					"items": "supersentaicraft:green_tensouder"
+				  }
 				}
 			  }
 			}
@@ -30,6 +44,6 @@
 	}
   },
   "rewards": {
-	"function": "ssc_snd:drop/goseiger/landick_claw"
+	"function": "ssc_snd:drop/goseiger/weapon_summon"
   }
 }

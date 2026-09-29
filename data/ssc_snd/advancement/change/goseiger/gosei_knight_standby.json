@@ -1,0 +1,54 @@
+{
+	"parent": "ssc_snd:change/goseiger/standby_root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"ssc_snd:change/goseiger/gosei_knight_standby": {
+					  "1": true
+					}
+				  }
+				},
+				"equipment": {
+				  "head": {
+					"items": "supersentaicraft:goseiger_head"
+				  },
+				  "chest": {
+					"items": "supersentaicraft:goseiger_torso"
+				  },
+				  "legs": {
+					"items": "supersentaicraft:goseiger_legs"
+				  },
+				  "feet": {
+					"items": "minecraft:air"
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"ssc.change-stage": 5
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "ssc_snd:change/goseiger/standby/gosei_knight"
+	}
+  }
+  
