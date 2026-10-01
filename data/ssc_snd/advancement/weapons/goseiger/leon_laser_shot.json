@@ -11,7 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"mainhand": {
-				  "items": "supersentaicraft:leon_laser"
+				  "items": "supersentaicraft:leon_laser_sword"
 				}
 			  }
 			}
@@ -43,7 +43,7 @@
 			"predicate": {
 			  "equipment": {
 				"offhand": {
-				  "items": "supersentaicraft:leon_laser"
+				  "items": "supersentaicraft:leon_laser_sword"
 				}
 			  }
 			}
