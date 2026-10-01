@@ -1,4 +1,4 @@
-# Super Sentai Craft Sounds [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/LovekovGaming/Super-Sentai-Craft-Sounds/total)](https://github.com/LovekovGaming/Super-Sentai-Craft-Sounds/releases) [![Discord](https://img.shields.io/discord/550883312659333121)](https://discord.gg/FtT5988)
+# Super Sentai Craft Sounds [![Downloads](https://img.shields.io/github/downloads/LovekovGaming/Super-Sentai-Craft-Sounds/Super-Sentai-Craft-Sounds.zip?displayAssetName=false)](https://github.com/LovekovGaming/Super-Sentai-Craft-Sounds/releases) [![Discord](https://img.shields.io/discord/550883312659333121)](https://discord.gg/FtT5988)
 
 A Minecraft data pack adding (limited) sound functionality for the [Super Sentai Craft](https://modrinth.com/mod/super-sentai-craft) mod.
 
