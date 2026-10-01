@@ -1,0 +1,64 @@
+{
+  "parent": "ssc_snd:weapons/goseiger/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"mainhand": {
+				  "items": "supersentaicraft:leon_laser"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "mainhand": {
+					"items": "#ssc_snd:arsenal/all_ranged"
+				  }
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"offhand": {
+				  "items": "supersentaicraft:leon_laser"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "ssc_snd:weapons/goseiger/leon_laser_shot"
+  }
+}

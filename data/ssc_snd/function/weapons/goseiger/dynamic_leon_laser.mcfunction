@@ -1,0 +1,3 @@
+execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if entity @s[advancements={ssc_snd:weapons/goseiger/dynamic_leon_laser=true}] run stopsound @a[scores={ssc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
+execute as @n[type=arrow,nbt={HasBeenShot:false},tag=!sound_invalid] on origin if entity @s[advancements={ssc_snd:weapons/goseiger/dynamic_leon_laser=true}] run playsound supersentaicraft:dynamic_leon_laser player @a[scores={ssc.configs.weapon_snd=1}] ~ ~1 ~ 3
+advancement revoke @s only ssc_snd:weapons/goseiger/dynamic_leon_laser

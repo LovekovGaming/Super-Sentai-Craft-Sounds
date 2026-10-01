@@ -1,0 +1,27 @@
+{
+	"parent": "ssc_snd:weapons/goseiger/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "supersentaicraft:goseiger/gosei_blaster_snake"
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "supersentaicraft:goseiger/gosei_blaster_tiger"
+		}
+	  }
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	],
+	"rewards": {
+	  "function": "ssc_snd:weapons/goseiger/gosei_blaster_landick_craft"
+	}
+  }
+  

@@ -1,0 +1,97 @@
+{
+	"parent": "ssc_snd:weapons/goseiger/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": "supersentaicraft:gosei_blaster_snake"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": "supersentaicraft:gosei_blaster_tiger"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		  ]
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "#ssc_snd:arsenal/all_ranged"
+					}
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "offhand": {
+						"items": "supersentaicraft:gosei_blaster_snake"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "offhand": {
+						"items": "supersentaicraft:gosei_blaster_tiger"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"1",
+		"2"
+	  ]
+	],
+	"rewards": {
+	  "function": "ssc_snd:weapons/goseiger/gosei_blaster_landick"
+	}
+  }
+  

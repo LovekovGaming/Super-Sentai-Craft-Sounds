@@ -1,0 +1,64 @@
+{
+  "parent": "ssc_snd:weapons/goseiger/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"mainhand": {
+				  "items": "supersentaicraft:gosei_blaster_shark"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "mainhand": {
+					"items": "#ssc_snd:arsenal/all_ranged"
+				  }
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"offhand": {
+				  "items": "supersentaicraft:gosei_blaster_shark"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "ssc_snd:weapons/goseiger/gosei_blaster_seaick"
+  }
+}
