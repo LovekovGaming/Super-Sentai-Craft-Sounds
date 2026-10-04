@@ -1,0 +1,23 @@
+{
+  "parent": "ssc_snd:flags/root",
+  "criteria": {
+	"bun_red_change": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bun_blue_change": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bun_pink_change": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bun_black_change": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bun_orange_change": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bun_violet_change": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}
