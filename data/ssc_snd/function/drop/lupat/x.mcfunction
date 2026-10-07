@@ -1,6 +1,6 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player minecraft:entity.item.pickup
-execute unless score @s ssc.form1n matches 0 unless score @s ssc.change-stage matches 5.. as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:silver_x_train run tag @s add valid
-execute unless score @s ssc.form1n matches 1 unless score @s ssc.change-stage matches 5.. as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:gold_x_train run tag @s add valid
+execute unless score @s toku.form1 matches 0 unless score @s ssc.change-stage matches 5.. as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:silver_x_train run tag @s add valid
+execute unless score @s toku.form1 matches 1 unless score @s ssc.change-stage matches 5.. as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:gold_x_train run tag @s add valid
 execute unless score @s ssc.change-stage matches 5.. as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:victory_striker run tag @s add striker
 execute unless score @s ssc.change-stage matches 5.. as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:siren_striker run tag @s add striker
 execute if score @s ssc.change-stage matches 5.. as @n[type=item,distance=..5,predicate=ssc_snd:valid_item] if items entity @s contents supersentaicraft:x_changer run tag @s add valid

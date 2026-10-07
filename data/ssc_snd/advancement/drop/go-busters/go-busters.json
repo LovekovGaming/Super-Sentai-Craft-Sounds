@@ -34,7 +34,7 @@
 		  },
 		  {
 			"condition": "minecraft:reference",
-			"name": "ssc_core:heisei/go-busters_armor"
+			"name": "tokudata:sentai/heisei/go-busters_armor"
 		  }
 		]
 	  }

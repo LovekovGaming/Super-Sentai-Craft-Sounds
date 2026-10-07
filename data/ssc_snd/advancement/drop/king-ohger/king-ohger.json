@@ -78,7 +78,7 @@
 		  },
 		  {
 			"condition": "minecraft:reference",
-			"name": "ssc_core:reiwa/king-ohger_armor"
+			"name": "tokudata:sentai/reiwa/king-ohger_armor"
 		  },
 		  {
 			"condition": "minecraft:inverted",

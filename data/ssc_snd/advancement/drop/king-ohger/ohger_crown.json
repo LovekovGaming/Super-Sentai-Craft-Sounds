@@ -34,7 +34,7 @@
 		  },
 		  {
 			"condition": "minecraft:reference",
-			"name": "ssc_core:reiwa/king-ohger_armor"
+			"name": "tokudata:sentai/reiwa/king-ohger_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -51,7 +51,7 @@
 			"condition": "minecraft:entity_scores",
 			"entity": "this",
 			"scores": {
-			  "ssc.form1n": 0
+			  "toku.form1": 0
 			}
 		  }
 		]
