@@ -16,5 +16,3 @@ execute if score @s toku.form1 matches 0 run function ssc_snd:play_global {name:
 execute if score @s toku.form1 matches 1 run function ssc_snd:play_global {name:"supersentaicraft:patren_x",scope:"change_snd"}
 execute if score @s toku.form1 matches 2 run function ssc_snd:play_global {name:"supersentaicraft:super_patren_x",scope:"change_snd"}
 execute if score @s toku.form1 matches 3 run function ssc_snd:play_global {name:"supersentaicraft:super_lupin_x",scope:"change_snd"}
-
-advancement revoke @s only ssc_snd:change/common/reset

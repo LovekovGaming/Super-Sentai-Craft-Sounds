@@ -36,7 +36,4 @@ execute if entity @s[advancements={tokudata:hooks/transform=true,ssc_snd:flags/g
 execute if entity @s[advancements={tokudata:hooks/transform=true,ssc_snd:flags/gozyuger/persistent={powered_up_uw=true}}] unless score Form_Difference toku.form1 matches -1..1 run scoreboard players set @s ssc.seq1 0
 execute if entity @s[advancements={tokudata:hooks/transform=true,ssc_snd:flags/gozyuger/persistent={powered_up_uw=true}}] if score Form_Difference toku.form1 matches 1 run advancement revoke @s only ssc_snd:flags/gozyuger/persistent powered_up_uw
 
-advancement revoke @s only ssc_snd:change/common/reset
-advancement revoke @s from ssc_snd:change/common/detransform_root
-advancement grant @s only ssc_snd:change/common/detransform
 advancement grant @s only ssc_snd:change/gozyuger/tega_sword_off 1

@@ -11,5 +11,3 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentai
 execute if score @s toku.form1 matches 0 run function ssc_snd:play_global {name:"supersentaicraft:boonboom_change_booster",scope:"change_snd"}
 execute if score @s toku.form1 matches 1 run function ssc_snd:play_global {name:"supersentaicraft:bun_007_110",scope:"change_snd"}
 execute if score @s toku.form1 matches 2 run function ssc_snd:play_global {name:"supersentaicraft:champion_change",scope:"change_snd"}
-
-advancement revoke @s only ssc_snd:change/common/reset

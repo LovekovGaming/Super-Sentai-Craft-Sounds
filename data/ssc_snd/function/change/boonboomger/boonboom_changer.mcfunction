@@ -13,5 +13,3 @@ execute if score @s toku.form1 matches 0 run function ssc_snd:play_global {name:
 execute if score @s toku.form1 matches 1 if items entity @s armor.feet supersentaicraft:red_boonboom_changer run function ssc_snd:play_global {name:"supersentaicraft:bun_red_119",scope:"change_snd"}
 execute if score @s toku.form1 matches 1 unless items entity @s armor.feet supersentaicraft:red_boonboom_changer run function ssc_snd:play_global {name:"supersentaicraft:bun_007_110",scope:"change_snd"}
 execute if score @s toku.form1 matches 2 run function ssc_snd:play_global {name:"supersentaicraft:champion_change",scope:"change_snd"}
-
-advancement revoke @s only ssc_snd:change/common/reset

@@ -4,5 +4,3 @@ stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentai
 
 function ssc_snd:play_global {name:"supersentaicraft:gosei_knight",scope:"change_snd"}
 title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.goseiger.change_gosei_knight","color":"yellow"}
-
-advancement revoke @s only ssc_snd:change/common/reset

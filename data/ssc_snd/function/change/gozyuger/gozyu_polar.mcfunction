@@ -12,7 +12,4 @@ execute if score @s toku.form1 matches 1..3 unless score @s toku.form1 matches 2
 execute if score @s toku.form1 matches 2 unless score Form_Difference toku.form1 matches 1 run function ssc_snd:play_global {name:"supersentaicraft:gozyu_polar_god",scope:"change_snd"}
 execute if score @s toku.form1 matches 3 unless score Form_Difference toku.form1 matches -1 run function ssc_snd:play_global {name:"supersentaicraft:gozyu_polar_god",scope:"change_snd"}
 
-advancement revoke @s only ssc_snd:change/common/reset
-advancement revoke @s from ssc_snd:change/common/detransform_root
-advancement grant @s only ssc_snd:change/common/detransform
 advancement grant @s only ssc_snd:change/gozyuger/tega_sword_off 1

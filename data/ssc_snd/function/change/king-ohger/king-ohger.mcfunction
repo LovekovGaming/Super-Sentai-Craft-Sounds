@@ -23,7 +23,4 @@ execute if score @s toku.form1 matches 2.. run playsound minecraft:entity.lightn
 execute if score @s toku.form1 matches 2.. run playsound minecraft:entity.lightning_bolt.impact player @a[scores={ssc.configs.change_snd=1},distance=0.1..] ~ ~1 ~ 3 0.8
 execute if score @s toku.form1 matches 2.. run function ssc_snd:play_global {name:"minecraft:entity.lightning_bolt.thunder",scope:"change_snd"}
 
-advancement revoke @s only ssc_snd:change/common/reset
-advancement revoke @s from ssc_snd:change/common/detransform_root
-advancement grant @s only ssc_snd:change/common/detransform
 advancement grant @s only ssc_snd:change/king-ohger/ohgercalibur_off 1

@@ -11,7 +11,4 @@ execute if score @s toku.form1 matches 0 run function ssc_snd:play_global {name:
 execute if score @s toku.form1 matches 1 run function ssc_snd:play_global {name:"supersentaicraft:tega_june_garyudo",scope:"change_snd"}
 execute if score @s toku.form1 matches 1 run scoreboard players set @s ssc.seq1 96
 
-advancement revoke @s only ssc_snd:change/common/reset
-# advancement revoke @s from ssc_snd:change/common/detransform_root
-# advancement grant @s only ssc_snd:change/common/detransform
 # advancement grant @s only ssc_snd:change/gozyuger/tega_june_off 1

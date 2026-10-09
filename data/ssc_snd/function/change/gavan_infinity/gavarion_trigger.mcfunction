@@ -12,7 +12,4 @@ execute unless predicate tokudata:sneaking unless entity @a[advancements={ssc_sn
 
 function ssc_snd:play_global {name:"supersentaicraft:gavarion_trigger_fire",scope:"change_snd"}
 
-advancement revoke @s only ssc_snd:change/common/reset
-advancement revoke @s from ssc_snd:change/common/detransform_root
-advancement grant @s only ssc_snd:change/common/detransform
 advancement grant @s only ssc_snd:change/gavan_infinity/gavarion_trigger_off 1

@@ -40,7 +40,4 @@ execute if score @s toku.form1 matches 41 if score Form_Difference toku.form1 ma
 execute if score @s toku.form1 matches 51 run function ssc_snd:play_global {name:"supersentaicraft:sentai_ring_in",scope:"change_snd"}
 execute if score @s toku.form1 matches 52 run function ssc_snd:play_global {name:"supersentaicraft:tegasword_gozyuger",scope:"change_snd"}
 
-advancement revoke @s only ssc_snd:change/common/reset
-advancement revoke @s from ssc_snd:change/common/detransform_root
-advancement grant @s only ssc_snd:change/common/detransform
 advancement grant @s only ssc_snd:change/gozyuger/tega_sword_off 1

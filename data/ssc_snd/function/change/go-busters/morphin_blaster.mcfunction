@@ -5,5 +5,3 @@ execute as @n[type=arrow,nbt={HasBeenShot:false},distance=..4] run tag @s add so
 stopsound @a[scores={ssc.configs.change_snd=1},distance=..20] player supersentaicraft:morphin_blaster_standby
 
 function ssc_snd:play_global {name:"supersentaicraft:lets_morphin_blaster",scope:"change_snd"}
-
-advancement revoke @s only ssc_snd:change/common/reset
