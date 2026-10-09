@@ -34,7 +34,7 @@
 		  },
 		  {
 			"condition": "minecraft:reference",
-			"name": "ssc_core:heisei/boukenger_armor"
+			"name": "tokudata:sentai/heisei/boukenger_armor"
 		  }
 		]
 	  }

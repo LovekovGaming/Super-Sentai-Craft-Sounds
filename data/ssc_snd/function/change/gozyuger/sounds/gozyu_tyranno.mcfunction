@@ -1,14 +1,14 @@
 advancement revoke @s only ssc_snd:change/gozyuger/gozyu_tyranno_seq 2
 scoreboard players add @s ssc.seq1 1
 
-execute if score @s ssc.seq1 matches 26 if score @s ssc.form1n matches 0 run function ssc_snd:play_global {name:"supersentaicraft:gozyu_tyranno",scope:"change_snd"}
-execute if score @s ssc.seq1 matches 96 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"yellow"}
-execute if score @s ssc.seq1 matches 136 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"yellow"}
-execute if score @s ssc.seq1 matches 170 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"gold"}
-execute if score @s ssc.seq1 matches 178 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"yellow"}
-execute if score @s ssc.seq1 matches 182 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"gold"}
-execute if score @s ssc.seq1 matches 186 if score @s ssc.form1n matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"yellow"}
-execute if score @s ssc.seq1 matches 186 if score @s ssc.form1n matches 0 run scoreboard players set @s ssc.seq1 262
+execute if score @s ssc.seq1 matches 26 if score @s toku.form1 matches 0 run function ssc_snd:play_global {name:"supersentaicraft:gozyu_tyranno",scope:"change_snd"}
+execute if score @s ssc.seq1 matches 96 if score @s toku.form1 matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"yellow"}
+execute if score @s ssc.seq1 matches 136 if score @s toku.form1 matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"yellow"}
+execute if score @s ssc.seq1 matches 170 if score @s toku.form1 matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"gold"}
+execute if score @s ssc.seq1 matches 178 if score @s toku.form1 matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"yellow"}
+execute if score @s ssc.seq1 matches 182 if score @s toku.form1 matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"gold"}
+execute if score @s ssc.seq1 matches 186 if score @s toku.form1 matches 0 run title @a[scores={ssc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.supersentaicraft.gozyuger.gozyu_tyranno","color":"yellow"}
+execute if score @s ssc.seq1 matches 186 if score @s toku.form1 matches 0 run scoreboard players set @s ssc.seq1 262
 function ssc_snd:change/gozyuger/sounds/gozyuger_retransformation
 execute if score @s ssc.seq1 matches 173..262 run function ssc_snd:change/gozyuger/sounds/tegasword_gozyuger
 

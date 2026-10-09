@@ -4,13 +4,21 @@
 	"requirement": {
 	  "trigger": "minecraft:inventory_changed",
 	  "conditions": {
-		"player": {
-		  "equipment": {
-			"feet": {
-			  "items": "minecraft:air"
+        "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"ssc_snd:change/common/detransform_root": false,
+					"tokudata:hooks/detransform": true
+				  }
+				}
+			  }
 			}
-		  }
-		}
+		]
 	  }
 	}
   },

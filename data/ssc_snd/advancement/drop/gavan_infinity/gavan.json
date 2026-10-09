@@ -78,7 +78,7 @@
 		  },
 		  {
 			"condition": "minecraft:reference",
-			"name": "ssc_core:reiwa/gavan_infinity_armor"
+			"name": "tokudata:sentai/reiwa/gavan_infinity_armor"
 		  }
 		]
 	  }
