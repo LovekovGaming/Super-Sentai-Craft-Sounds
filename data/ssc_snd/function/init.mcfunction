@@ -10,4 +10,4 @@ scoreboard objectives add ssc.configs.change_snd dummy
 scoreboard objectives add ssc.configs.detransform_snd dummy
 scoreboard objectives add ssc.configs.weapon_snd dummy
 scoreboard objectives add ssc.configs.mob_snd dummy
-tellraw @a [{"text":"[SSC Sounds]: ","color":"red","bold":true},{"text":"v2026.10.04 ","color":"white","bold":false},{"translate":"ERROR.Missing_SSC_Resources","color":"red","bold":false}]
+tellraw @a [{"text":"[SSC Sounds]: ","color":"red","bold":true},{"text":"v2026.10.08 ","color":"white","bold":false},{"translate":"ERROR.Missing_SSC_Resources","color":"red","bold":false}]
